@@ -97,7 +97,7 @@ a:hover,a:focus{ text-decoration: none}
 .button2 {
     width: 100px;
     padding-right: 15px;
-    margin-right: 50%;
+    margin-right: 0;
 }
 
 .comment_submit {
