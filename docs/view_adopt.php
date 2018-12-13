@@ -11,9 +11,20 @@
 			<span>
 				<li><a href="">หน้าหลัก</a></li>
 				<li><a href="Create_Adopt.php">สร้างอดอป</a></li>
+				<li><a href="profile.php">โปรไฟล์</a></li>
 				<li><a href="search.php">ค้นหา</a></li>
 			</span>
 		</nav>
+
+		<!--div class="signup">
+			<?php
+				//include 'ConnextDatabase.php';
+				//$adopt_id = $_GET["adopt_id"];
+
+
+				//include 'sign_up_tab.php';
+			?>
+		</div-->
 
 		<div class="login">
 			<?php
@@ -48,6 +59,7 @@
 							<p>แท็ค : ooo<!--?php echo implode(", ",$adopt_this['tag']); ?--><br></p>
 							<p>รายละเอียด : eeee<!--?php echo $adopt_this['detail']; ?--><br></p>
 							<p>โดย : ggg<!--?php echo $adopt_this['user_create']; ?--><br></p>
+
 						</div>	
 					</div>
 				</fieldset>
@@ -93,7 +105,6 @@
 				?>
 			<!--/div-->
 		</div>
-
 		
 	</body>
 </html>

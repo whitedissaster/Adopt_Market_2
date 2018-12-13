@@ -15,7 +15,7 @@ input[type=text], input[type=password] {
 
 /* Set a style for all buttons */
 button {
-  	background-color: #4CAF50;
+  	background-color: #FF7F50;
     font-family: 'Kanit', sans-serif;
   	color: white;
   	padding: 14px 20px;
@@ -26,7 +26,7 @@ button {
 }
 
 button:hover {
-  	background-color: #3e8e41;
+  	background-color: #FF6600;
   	box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2);
 }
 
@@ -60,24 +60,10 @@ button:active {
 	background-color: #B22222;
 }
 
-.login {
+.signup {
   	position:absolute;
   	top:0px;
-  	right:0px;
-}
-
-.signup {
-  	width: auto;
-  	padding: 14px 18px;
-  	background-color: #9C9C9C;
-}
-
-.signup:hover {
-	background-color: #696969;
-}
-
-.signup:active {
-  background-color: #000000;
+  	right:90px;
 }
 
 /* Center the image and position the close button */

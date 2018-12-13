@@ -10,7 +10,8 @@
 			<span>
 				<li><a href="">หน้าหลัก</a></li>
 				<li><a href="Create_Adopt.php">สร้างอดอป</a></li>
-				<li><a href="histoy.php">ประวัติการซื้อขาย</a></li>
+				<li><a href="history.php">ประวัติการซื้อขาย</a></li>
+				<li><a href="search">ค้นหา</a></li>
 			</span>
 		</nav>
 

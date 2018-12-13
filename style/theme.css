@@ -82,6 +82,12 @@ a:hover,a:focus{ text-decoration: none}
     margin-right: 7%;
 }
 
+/*.signup {
+    position: absolute;
+    padding-right: 15px;
+    margin-right: 7%;
+}*/
+
 .logout {
     text-align: center;
 }

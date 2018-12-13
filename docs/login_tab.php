@@ -16,7 +16,7 @@
 			    else
 			{?>
 		    <br>
-	        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+	        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login / Sign up</button>
 
 			<div id="id01" class="modal">
 			  
@@ -33,7 +33,9 @@
 			      		<label for="psw"><b>Password</b></label>
 			      		<input type="password" placeholder="Enter Password" name="psw" required>
 			        
-			      		<button type="submit" value="login" formaction="login.php">Login</button>
+			      		<button type="submit" value="login" formaction="login.php" style="width: 49.5%;">Login</button>
+
+			      		<button type="submit" value="login" formaction="sign_up.php" style="width: 49.5%;" class="signup">Sign up</button><br>
 
 			      		<label>
 			        		<input type="checkbox" checked="checked" name="remember"> Remember me
