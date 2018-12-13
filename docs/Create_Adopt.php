@@ -1,44 +1,73 @@
 <!--Create Adopt-->
-<?php 
-	include 'login_tab.php';
-?>
-<fieldset>
-<form id="create_adopt1" action="" method="post" enctype="multipart/form-data">
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../style/theme.css">
+	</head>
+	<body>
 
-	<h1>สร้างรายการขาย</h1>
+		<nav>
+			<span>
+				<li><a href="Create_Adopt.php">สร้างอดอป</a></li>
+				<li><a href="view_adopt.php">view adopt</a></li>
+			</span>
+		</nav>
 
-	<h2>สินค้า</h2>
+		<div class="login">
+			<?php 
+				include 'login_tab.php';
+			?>
+		</div>
 
-	<label>ไฟล์สินค้า</label><br>
+		<div class="all">
+			<div class="col-md-7">
+		        <div class="about_right">
+					<fieldset>
+						<form id="create_adopt1" action="" method="post" enctype="multipart/form-data">
 
-	<input type="file" name="fileToUpload" accept="image/x-png,image/gif,image/jpeg"><br><br>
+						<h1>สร้างรายการขาย</h1>
 
-	<label>ชื่อสินค้า</label><br>
-	<input type="text" id="" name="adopt_name" placeholder="ชื่ออดอป..."><br><br>
+						<h2>สินค้า</h2>
 
-	<label>หมวดหมู่</label>
-	<select name="adopt_type">
-    	<option value="people">คน</option>
-    	<option value="animal">สัตว์</option>
-    	<option value="clothes">ชุด</option>
-    	<option value="item">สิ่งของ</option>
-	<option value="place">สถานที่</option>
-	</select><br><br>
+						<label>ไฟล์สินค้า</label><br>
 
-	<label>ธีม</label>
-	<input type="text" id="widget1" name="adopt_themes" placeholder="ใช้เครื่องหมาย;หรือ,เพื่อขั้นแท็ก"><br><br>
+						<input type="file" name="fileToUpload" accept="image/x-png,image/gif,image/jpeg"><br><br>
 
-	<label>เพศ : </label>
-    	<label for="gender">
-    	<input type="radio" name="adopt_gender" value="female">ชาย
-    	<input type="radio" name="adopt_gender" value="male">หญิง
-    	<input type="radio" name="adopt_gender" value="unknown">ไม่ระบุเพศ
-	</label><br><br>
+						<label>ชื่อสินค้า</label><br>
+						<input type="text" id="" name="adopt_name" placeholder="ชื่ออดอป..."><br><br>
 
-	<label>รายละเอียด</label><br>
-	<textarea name="adopt_detail" placeholder="รายละเอียดอื่นๆ..." style="height:200px"></textarea><br><br>
+						<label>หมวดหมู่</label>
+						<select name="adopt_type">
+					    	<option value="people">คน</option>
+					    	<option value="animal">สัตว์</option>
+					    	<option value="clothes">ชุด</option>
+					    	<option value="item">สิ่งของ</option>
+							<option value="place">สถานที่</option>
+						</select><br><br>
 
-	<input type="submit" value="สร้าง" formaction="Create_Adopt_Submit.php">
-</form>
-</fieldset>
+						<label>ธีม</label>
+						<input type="text" id="widget1" name="adopt_themes" placeholder="ใช้เครื่องหมาย;หรือ,เพื่อขั้นแท็ก"><br><br>
 
+						<label>เพศ : </label>
+					    	<label for="gender">
+					    	<input type="radio" name="adopt_gender" value="female">ชาย
+					    	<input type="radio" name="adopt_gender" value="male">หญิง
+					    	<input type="radio" name="adopt_gender" value="unknown">ไม่ระบุเพศ
+						</label><br><br>
+
+						<label>รายละเอียด</label><br>
+						<textarea name="adopt_detail" placeholder="รายละเอียดอื่นๆ..." style="height:200px"></textarea><br>
+
+						<!--input type="submit" value="สร้าง" formaction="Create_Adopt_Submit.php"-->
+
+						<button type="submit" value="สร้าง" formaction="Create_Adopt_Submit.php" class="button button2">สร้าง</button>
+
+						</form>
+					</fieldset>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>

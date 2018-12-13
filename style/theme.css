@@ -1,0 +1,157 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
+@import url(https://fonts.googleapis.com/css?family=Damion);
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+
+
+/* General styles */
+body {
+    background: #CD853F;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #828282;
+    font-weight: 400;
+}
+
+img {width: 100%;}
+a,button{outline: 0 !important;}
+a:hover,a:focus{ text-decoration: none}
+
+
+/* Font */
+.banner_btn,.btn.submit_btn,.service_btn,.name,.testi_btn,.work_us_btn {
+    font-family: "Damion",cursive;
+}
+
+.about_right {
+    margin-left: 0px;
+    margin-top: 0px;
+    overflow: hidden;
+    padding: 18px 25px 25px 30px;
+    word-wrap: break-word;
+    -ms-word-break: break-all; 
+    word-break: break-all; 
+    word-break: break-word;
+}
+
+.about_left {
+    box-shadow: 0 0 18px -9px #2a425e;
+    -moz-box-shadow: 0 0 18px -9px #2a425e;
+    -webkit-box-shadow: 0 0 18px -9px #2a425e;
+
+    margin-top: 40px;
+    /*position: relative;*/
+    z-index: 1;
+    float: left;
+    width: 30%;
+}
+
+.about_left2 {
+	margin-left: 0px;
+    margin-top: 0px;
+    overflow: hidden;
+    padding: 18px 25px 25px 30px;
+    word-wrap: break-word;
+    -ms-word-break: break-all; 
+    word-break: break-all; 
+    word-break: break-word;
+}
+
+.all {
+    font-family: 'Kanit', sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 0 10px 10px 10px;
+    padding: 7px;
+    background: #FFDEAD;
+    margin-top: 5em;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 3em;
+}
+
+.row {
+    font-family: 'Kanit', sans-serif;
+    display: block;
+    background-color: #FFDEAD;
+    padding: 7px 7px 7px 7px;
+}
+
+.login {
+    position: absolute;
+    padding-right: 15px;
+    margin-right: 7%;
+}
+
+.logout {
+    text-align: center;
+}
+
+.comment {
+    margin-top: 0;
+    display: block;
+    background-color: #FFDEAD;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.button2 {
+    width: 100px;
+    padding-right: 15px;
+    margin-right: 50%;
+}
+
+.comment_submit {
+	height: auto;
+	width: 100%;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+input {
+    font-family: 'Kanit', sans-serif;
+}
+
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    width: 100%;
+    font-family: 'Kanit', sans-serif;
+    font-size: 14pt;
+    resize: none;
+}
+
+span {
+    font-family: 'Kanit', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 1.75em;
+    margin-left: 6.9%;
+    width: auto;
+    background-color: #FFDEAD;
+    border-radius: 10px 10px 0 0;
+}
+
+li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li {
+    float: left;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
