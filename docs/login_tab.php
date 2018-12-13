@@ -31,7 +31,7 @@
 			      		<input type="text" placeholder="Enter Username" name="uname" required>
 
 			      		<label for="psw"><b>Password</b></label>
-			      		<input type="password" placeholder="Enter Password" name="psw" required>
+			      		<input type="password" placeholder="user_password" name="psw" required>
 			        
 			      		<button type="submit" value="login" formaction="login.php" style="width: 49.5%;">Login</button>
 

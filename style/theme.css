@@ -106,11 +106,34 @@ a:hover,a:focus{ text-decoration: none}
     margin-right: 0;
 }
 
+.btn {
+	background-color: #FF0000;
+  	border: none;
+  	color: white;
+  	width: auto;
+  	padding: 7px 12px;
+  	font-size: 16px;
+  	cursor: pointer;
+
+  	position: absolute;
+    margin-left: 77%;
+}
+
+.btn:hover {
+  background-color: #B22222;
+}
+
 .comment_submit {
 	height: auto;
 	width: 100%;
 	margin-left: 7%;
 	margin-right: 7%;
+}
+
+.button3 {
+    width: 100px;
+    padding-right: 15px;
+    margin-right: 0;
 }
 
 input {
@@ -164,6 +187,27 @@ li a:hover {
 	.his {
 		width: 93%;
 	}
+	.btn {
+		margin-left: 69%;
+	}
+}
+
+@media (min-width: 700px) and (max-width: 855px) {
+	.btn {
+		margin-left: 70%;
+	}
+}
+
+@media (min-width: 856px) and (max-width: 965px) {
+	.btn {
+		margin-left: 73%;
+	}
+}
+
+@media (min-width: 966px) and (max-width: 1050px) {
+	.btn {
+		margin-left: 74%;
+	}
 }
 
 @media (min-width: 701px) and (max-width: 1019px) {
@@ -175,5 +219,9 @@ li a:hover {
 @media (min-width: 1020px) and (max-width: 1125px) {
 	.his {
 		width: 97%;
+	}
+
+	.btn {
+		margin-left: 75%;
 	}
 }

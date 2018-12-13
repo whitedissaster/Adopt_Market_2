@@ -3,6 +3,7 @@
 	<head>
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="../style/theme.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
 
@@ -28,6 +29,9 @@
 		<div class="all">
 			<div class="row">           
 				<fieldset>
+
+					<a href="edit_profile.php"><button class="btn"><i class="fa fa-edit" style="height: 15px;"></i></button></a>
+					
 					<h1>Profile</h1>
 					<div class="about_left">
 
@@ -36,7 +40,7 @@
 					
 			                <img src='<?php echo 'data:image/png;base64,' . base64_encode(file_get_contents('F:/tata/draw/jpg/swane.jpg')); ?>'><br>
 			            </div>
-
+			            
 			            <div class="about_right">
 							<p>ข้อมูลส่วนตัว<br></p>
 
