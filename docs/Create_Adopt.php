@@ -9,8 +9,10 @@
 
 		<nav>
 			<span>
+				<li><a href="">หน้าหลัก</a></li>
 				<li><a href="Create_Adopt.php">สร้างอดอป</a></li>
 				<li><a href="view_adopt.php">view adopt</a></li>
+				<li><a href="search.php">ค้นหา</a></li>
 			</span>
 		</nav>
 
@@ -47,7 +49,7 @@
 						</select><br><br>
 
 						<label>ธีม</label>
-						<input type="text" id="widget1" name="adopt_themes" placeholder="ใช้เครื่องหมาย;หรือ,เพื่อขั้นแท็ก"><br><br>
+						<input type="text" id="widget1" name="adopt_themes" placeholder="ใช้เครื่องหมาย;หรือ,เพื่อคั่นแท็ก"><br><br>
 
 						<label>เพศ : </label>
 					    	<label for="gender">
