@@ -41,10 +41,12 @@
 
 						<label>รายละเอียด</label><br>
 						<textarea name="adopt_detail" placeholder="รายละเอียดอื่นๆ..." style="height:200px"></textarea><br>
-
+						
 						<button type="submit" value="ส่ง" formaction="report.php" class="button button2">ส่ง</button>
 
 						</form>
+
+						<!--button type="submit" value="ส่ง" formaction="report.php" class="button button2">ส่ง</button-->
 
 					</fieldset>
 				</div>
