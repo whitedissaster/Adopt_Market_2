@@ -3,8 +3,6 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title></title>
-		<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
-		<script type="text/javascript" src="ajax.js" ></script>
 		<link rel="stylesheet" type="text/css" href="../style/theme.css">
 	</head>
 	<body>

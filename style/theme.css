@@ -123,17 +123,28 @@ a:hover,a:focus{ text-decoration: none}
   background-color: #B22222;
 }
 
+.reportbtn {
+  	background-color: #FF0000;
+  	border: none;
+  	color: yellow;
+  	width: auto;
+  	padding: 7px 12px;
+  	font-size: 16px;
+  	cursor: pointer;
+
+  	position: absolute;
+    margin-left: 77%;
+}
+
+.reportbtn:hover {
+  	background-color: #B22222;
+}
+
 .comment_submit {
 	height: auto;
 	width: 100%;
 	margin-left: 7%;
 	margin-right: 7%;
-}
-
-.button3 {
-    width: 100px;
-    padding-right: 15px;
-    margin-right: 0;
 }
 
 input {

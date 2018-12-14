@@ -4,6 +4,7 @@
 	<head>
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="../style/theme.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
 
@@ -41,6 +42,9 @@
 		<div class="all">
 			<div class="row">           
 				<fieldset>
+
+					<a href="report_adopt.php"><button class="reportbtn"><i class="fa fa-warning" style="height: 20px;"></i></button></a>
+
 					<h1>ข้อมูลอดอป</h1>
 
 					<div class="col-md-5">
