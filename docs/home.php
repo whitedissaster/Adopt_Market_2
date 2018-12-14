@@ -3,8 +3,18 @@
 	<head>
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="../style/theme.css">
+		<script src="../js/menu.js"></script>
 	</head>
 	<body>
+
+		<div id="mySidenav" class="sidenav">
+		  	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  	<a href="home.php">หน้าหลัก</a>
+			<a href="view_adopt.php">view adopt</a>
+			<a href="search.php">ค้นหา</a>
+		</div>
+
+		<span onclick="openNav()">&#9776; Menu</span>
 
 		<nav>
 			<span>

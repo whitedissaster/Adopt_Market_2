@@ -4,16 +4,21 @@
 	<head>
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="../style/theme.css">
+		<script src="../js/menu.js"></script>
 	</head>
 	<body>
 
-		<nav>
-			<span>
-				<li><a href="home.php">หน้าหลัก</a></li>
-				<li><a href="Create_Adopt.php">สร้างอดอป</a></li>
-				<li><a href="view_adopt.php">view adopt</a></li>
-			</span>
-		</nav>
+		<div id="mySidenav" class="sidenav">
+		  	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  	<a href="home.php">หน้าหลัก</a>
+			<a href="Create_Adopt.php">สร้างอดอป</a>
+			<a href="auction.php">สร้างการประมูล</a>
+			<a href="view_adopt.php">view adopt</a>
+			<a href="history.php">ประวัติการซื้อขาย</a>
+			<a href="search.php">ค้นหา</a>
+		</div>
+
+		<span onclick="openNav()">&#9776; Menu</span>
 
 		<div class="all">
 			<div class="row">

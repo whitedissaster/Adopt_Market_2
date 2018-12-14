@@ -179,38 +179,25 @@ textarea {
     font-family: 'Kanit', sans-serif;
     font-size: 14pt;
     resize: none;
+    box-sizing: border-box;
 }
 
 span {
     font-family: 'Kanit', sans-serif;
+    transition: margin-left .5s;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     position: absolute;
-    top: 1.75em;
+    top: 2.9em;
     margin-left: 6.9%;
-    width: auto;
+    width: 100px;
     background-color: #FFDEAD;
     border-radius: 10px 10px 0 0;
-}
-
-li a {
-    display: block;
-    color: #000;
+    font-size:20px;
+    cursor:pointer; 
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li {
-    float: left;
-}
-
-/* Change the link color on hover */
-li a:hover {
-    background-color: #555;
-    color: white;
 }
 
 fieldset {
@@ -258,4 +245,48 @@ fieldset {
 	.btn {
 		margin-left: 75%;
 	}
+}
+
+.sidenav {
+  	height: 100%;
+  	width: 0;
+  	position: fixed;
+  	z-index: 1;
+  	top: 0;
+  	left: 0;
+  	background-color: #111;
+  	overflow-x: hidden;
+  	transition: 0.5s;
+  	padding-top: 60px;
+}
+
+.sidenav a {
+  	padding: 8px 8px 8px 32px;
+  	text-decoration: none;
+  	font-size: 25px;
+  	color: #818181;
+  	display: block;
+  	transition: 0.3s;
+}
+
+.sidenav a:hover {
+  	color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  	position: absolute;
+  	top: 0;
+  	right: 25px;
+  	font-size: 36px;
+  	margin-left: 50px;
+}
+
+#main {
+  	transition: margin-left .5s;
+  	padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  	.sidenav {padding-top: 15px;}
+  	.sidenav a {font-size: 18px;}
 }

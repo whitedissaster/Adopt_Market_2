@@ -3,16 +3,21 @@
 	<head>
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="../style/theme.css">
+		<script src="../js/menu.js"></script>
 	</head>
 	<body>
 
-		<nav>
-			<span>
-				<li><a href="home.php">หน้าหลัก</a></li>
-				<li><a href="Create_Adopt.php">สร้างอดอป</a></li>
-				<li><a href="view_adopt.php">view adopt</a></li>
-			</span>
-		</nav>
+		<div id="mySidenav" class="sidenav">
+		  	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  	<a href="home.php">หน้าหลัก</a>
+			<a href="Create_Adopt.php">สร้างอดอป</a>
+			<a href="auction.php">สร้างการประมูล</a>
+			<a href="view_adopt.php">view adopt</a>
+			<a href="history.php">ประวัติการซื้อขาย</a>
+			<a href="search.php">ค้นหา</a>
+		</div>
+
+		<span onclick="openNav()">&#9776; Menu</span>
 
 		<div class="login">
 			<?php
@@ -67,7 +72,7 @@
 					        <select id="modify" name="deal_modify">
 					            <option value="1">อนุญาต</option>
 					            <option value="0">ไม่อนุญาต</option>
-					            <option value="2">อนุญาติภายใต้เงื่อนไข</option> 
+					            <option value="2">อนุญาตภายใต้เงื่อนไข</option> 
 					        </select> <br>
 					        <div id="modify2" style="display: none">
 					           	<input type="checkbox" class="switch" name="deal_modify_inform" value=1>แจ้งแก่ผู้วาดทุกครั้งก่อนทำการดัดแปลง
@@ -77,7 +82,7 @@
 					        <select id="cuspic" name="deal_manuscript">
 					            <option value="1">อนุญาต</option>
 					            <option value="0">ไม่อนุญาต</option>
-					            <option value="2">อนุญาติภายใต้เงื่อนไข</option>
+					            <option value="2">อนุญาตภายใต้เงื่อนไข</option>
 					        </select> <br>
 					        <div id="cuspic2" style="display: none">
 						       	<input type="checkbox" class="switch" name="deal_manuscript_nocommercial" value=1>ไม่ใช่การใช้งานเชิงพาณิชย์<br>
@@ -90,7 +95,7 @@
 					        <select id="transfer" name="deal_transfer">
 					            <option value="1">อนุญาต</option>
 					            <option value="0">ไม่อนุญาต</option>
-					            <option value="2">อนุญาติภายใต้เงื่อนไข</option>
+					            <option value="2">อนุญาตภายใต้เงื่อนไข</option>
 					        </select> <br>
 					        <div id="transfer2" style="display: none">
 						        <input type="checkbox" class="switch" name = "deal_transfer_inform" value=1>แจ้งแก่ผู้วาดเมื่อมีการเปลี่ยนแปลงผู้ถือสิทธิ์<br>

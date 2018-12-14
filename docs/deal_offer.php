@@ -4,16 +4,19 @@
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="../style/theme.css">
 		<script type="text/javascript" src="../js/countdown.js"></script>
+		<script src="../js/menu.js"></script>
 	</head>
 	<body>
 
-		<nav>
-			<span>
-				<li><a href="home.php">หน้าหลัก</a></li>
-				<li><a href="Create_Adopt.php">สร้างอดอป</a></li>
-				<li><a href="view_adopt.php">view adopt</a></li>
-			</span>
-		</nav>
+		<div id="mySidenav" class="sidenav">
+		  	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  	<a href="home.php">หน้าหลัก</a>
+				<a href="Create_Adopt.php">สร้างอดอป</a>
+				<a href="auction.php">สร้างการประมูล</a>
+				<a href="view_adopt.php">view adopt</a>
+				<a href="history.php">ประวัติการซื้อขาย</a>
+				<a href="search.php">ค้นหา</a>
+		</div>
 
 		<div class="login">
 			<?php
@@ -48,7 +51,7 @@
 						        <select id="modify" name="customer_design_right_modify">
 						            <option value="1">อนุญาต</option>
 						            <option value="0">ไม่อนุญาต</option>
-						            <option value="2">อนุญาติภายใต้เงื่อนไข</option> 
+						            <option value="2">อนุญาตภายใต้เงื่อนไข</option> 
 						        </select> <br>
 						        <div id="modify2" style="display: none">
 						           	<input type="text" id="" name="customer_design_condition_commercial" placeholder="เงื่อนไข..."><br><br>
@@ -58,7 +61,7 @@
 						        <select id="modify" name="customer_design_right_commercial">
 						            <option value="1">อนุญาต</option>
 						            <option value="0">ไม่อนุญาต</option>
-						            <option value="2">อนุญาติภายใต้เงื่อนไข</option> 
+						            <option value="2">อนุญาตภายใต้เงื่อนไข</option> 
 						        </select> <br>
 						        <div id="modify2" style="display: none">
 						           	<input type="text" id="" name="customer_design_condition_commercial" placeholder="เงื่อนไข..."><br><br>
@@ -68,7 +71,7 @@
 						        <select id="modify" name="customer_design_right_publish">
 						            <option value="1">อนุญาต</option>
 						            <option value="0">ไม่อนุญาต</option>
-						            <option value="2">อนุญาติภายใต้เงื่อนไข</option> 
+						            <option value="2">อนุญาตภายใต้เงื่อนไข</option> 
 						        </select> <br>
 						        <div id="modify2" style="display: none">
 						           	<input type="text" id="" name="customer_design_condition_publish" placeholder="เงื่อนไข..."><br><br>
@@ -78,7 +81,7 @@
 						        <select id="modify" name="custumer_image_right_commercial">
 						            <option value="1">อนุญาต</option>
 						            <option value="0">ไม่อนุญาต</option>
-						            <option value="2">อนุญาติภายใต้เงื่อนไข</option> 
+						            <option value="2">อนุญาตภายใต้เงื่อนไข</option> 
 						        </select> <br>
 						        <div id="modify2" style="display: none">
 									<input type="text" id="" name="custumer_image_condition_commercial" placeholder="เงื่อนไข..."><br><br>
@@ -88,7 +91,7 @@
 						        <select id="transfer" name="customer_right_transfer_permissions">
 						            <option value="1">อนุญาต</option>
 						            <option value="0">ไม่อนุญาต</option>
-						            <option value="2">อนุญาติภายใต้เงื่อนไข</option>
+						            <option value="2">อนุญาตภายใต้เงื่อนไข</option>
 						        </select> <br>
 						        <div id="transfer2" style="display: none">
 									<input type="text" id="" name="customer_condition_transfer_permissions" placeholder="เงื่อนไข..."><br><br>
@@ -98,7 +101,7 @@
 						        <select id="transfer" name="customer_image_right_modify">
 						            <option value="1">อนุญาต</option>
 						            <option value="0">ไม่อนุญาต</option>
-						            <option value="2">อนุญาติภายใต้เงื่อนไข</option>
+						            <option value="2">อนุญาตภายใต้เงื่อนไข</option>
 						        </select> <br>
 						        <div id="transfer2" style="display: none">
 									<input type="text" id="" name="customer_image_condition_modify" placeholder="เงื่อนไข..."><br><br>
@@ -119,7 +122,7 @@
 						        <select id="transfer" name="creator_design_right_publish">
 						            <option value="1">อนุญาต</option>
 						            <option value="0">ไม่อนุญาต</option>
-						            <option value="2">อนุญาติภายใต้เงื่อนไข</option>
+						            <option value="2">อนุญาตภายใต้เงื่อนไข</option>
 						        </select> <br><br>
 						        <div id="transfer2" style="display: none">
 							        <label>เงื่อนไขนการเผยแพร่ภาพต้นฉบับของผู้ขาย:</label><br>
