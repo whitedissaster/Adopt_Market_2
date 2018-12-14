@@ -60,7 +60,7 @@
 							<label>รายละเอียด</label><br>
 							<textarea name="adopt_detail" placeholder="รายละเอียดอื่นๆ..." style="height:200px"></textarea><br><br>
 
-							<label>เวลาประมูล: </label>
+							<label>เวลาประมูล</label>
 							<div>
 								<?php 
 									include 'countdown.php';

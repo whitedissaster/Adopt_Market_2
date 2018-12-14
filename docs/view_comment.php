@@ -6,17 +6,19 @@
 	</head>
 	<body>
 
-		<div class="row">           
+		<div class="row">
+		<div class="v_comment">         
 			<fieldset>
-				<h1>ความคิดเห็น</h1><br>
+				<h2>ความคิดเห็น</h2><br>
 
 				<fieldset>
 					<label>ความคิดเห็นที่ 1</label><br>
 					<label>โดย : aaa</label>
 					<label>เมื่อ : aaa</label><br>
-					<label>ว่า : aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</label><br>
+					<label>ว่า : aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</label><br>
 				</fieldset>
 			</fieldset>
+			</div>
 		</div>
 	</body>
 </html>

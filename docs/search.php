@@ -28,13 +28,13 @@
 			<div class="row">
 				<fieldset>
 					<h1>ค้นหาอดอป</h1>
-					<label>ชื่อผู้ขาย: </label>
+					<label>ชื่อผู้ขาย</label>
 						<input type="text" name="user_alias" placeholder="ชื่อผู้ขาย"> <br><br>
 
 					<label>ชื่อสินค้า</label><br>
 						<input type="text" id="" name="adopt_name" placeholder="ชื่ออดอป..."><br><br>
 
-					<label>หมวดหมู่: </label>
+					<label>หมวดหมู่</label>
 				        <select name="adopt_type">
 				        	<option value="people">คน</option>
 				        	<option value="animal">สัตว์</option>
@@ -53,7 +53,7 @@
 				            <input type="radio" name="adopt_gender" value="unknown">ไม่ระบุเพศ
 				        </label><br><br>
 
-					<label>ประเภทการขาย: </label> 
+					<label>ประเภทการขาย</label> 
 						<select id="sale" name="sale_type">
 					        <option value="0"> ขาย </option>
 					        <option value="1"> ประมูล </option>
@@ -62,7 +62,7 @@
 
 					<button class="button button2" style="width: 200px;">ค้นหาอย่างละเอียด</button> <br>
 
-					<label>สิทธิการใช้อดอป: </label> <br>
+					<label>สิทธิการใช้อดอป</label> <br>
 						<label>ผู้ซื้อดัดแปลงดีไซน์</label>
 					        <select id="modify" name="deal_modify">
 					            <option value="1">อนุญาต</option>

@@ -30,20 +30,20 @@
 				<fieldset>
 					<form id="deal_offer" action="" method="post" enctype="multipart/form-data">
 						<h1>ข้อตกลง</h1>
-						<label>ชื่อผู้ขาย: </label>
+						<label>ชื่อผู้ขาย</label>
 							<input type="text" name="user_alias" placeholder="ชื่อผู้ขาย"> <br><br>
 
 						<label>ชื่อสินค้า</label><br>
 							<input type="text" id="" name="adopt_name" placeholder="ชื่ออดอป..."><br><br>
 
-						<label>สถานะดีล: </label> 
+						<label>สถานะดีล</label>
 							<select id="sale" name="offer_status">
 						        <option value="0"> refuse </option>
 						        <option value="1"> waiting </option>
 						        <option value="2"> sold </option>
 						    </select> <br><br>
 
-						<label>สิทธิการใช้อดอป: </label> <br>
+						<label>สิทธิการใช้อดอป</label> <br>
 							<label>ผู้ซื้อดัดแปลงดีไซน์</label>
 						        <select id="modify" name="customer_design_right_modify">
 						            <option value="1">อนุญาต</option>

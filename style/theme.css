@@ -100,6 +100,13 @@ a:hover,a:focus{ text-decoration: none}
     margin-right: 7%;
 }
 
+.v_comment {
+	word-wrap: break-word;
+	-ms-word-break: break-all; 
+    word-break: break-all; 
+    word-break: break-word;
+}
+
 .button2 {
     width: 100px;
     padding-right: 15px;
@@ -151,11 +158,23 @@ input {
     font-family: 'Kanit', sans-serif;
 }
 
+select {
+	border-radius: 5px;
+  	width: 100px;
+  	padding: 10px 10px;
+  	margin: 8px 0;
+  	display: inline-block;
+  	border: 1px solid #ccc;
+  	box-sizing: border-box;
+}
+
 textarea {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 
+    border-radius: 5px;
+    padding: 5px 10px;
     width: 100%;
     font-family: 'Kanit', sans-serif;
     font-size: 14pt;

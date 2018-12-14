@@ -45,7 +45,7 @@
 						<label>รหัสประชาชน</label>
 						<input type="text" id="widget1" name="personal_citizen_id" placeholder="รหัสประชาชน"><br><br>
 
-						<label>วันเกิด ： </label>
+						<label>วันเกิด </label>
 
 						<?php 
 	 						//$rows['Birthdate'] ="1986-02-12";
@@ -80,7 +80,7 @@
       						<?php } ?>
       					</select><br><br>
 
-      					<label>ที่อยู่ : </label><br>
+      					<label>ที่อยู่</label><br>
       					<label>บ้านเลขที่ : </label>
 						<input type="text" id="" name="personal_address_sub" placeholder="บ้านเลขที่" style="width: 20%;">
 
