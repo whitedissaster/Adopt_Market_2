@@ -3,12 +3,13 @@
 	<head>
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="../style/theme.css">
+		<script type="text/javascript" src="../js/countdown.js"></script>
 	</head>
 	<body>
 
 		<nav>
 			<span>
-				<li><a href="">หน้าหลัก</a></li>
+				<li><a href="home.php">หน้าหลัก</a></li>
 				<li><a href="Create_Adopt.php">สร้างอดอป</a></li>
 				<li><a href="view_adopt.php">view adopt</a></li>
 			</span>
@@ -133,6 +134,13 @@
 
 								<label>ราคาขาย</label><br>
 								<input type="text" id="" name="auto_buy" placeholder="ราคา"><br><br>
+
+								<label>วันสิ้นสุดสัญญา</label><br>
+								<input type="text" id="month" placeholder="เดือน (1-12)" style="width: 20%;">
+								<input type="text" id="day" placeholder="วันที่ (1-31)" style="width: 20%;">
+								<input type="text" id="year" placeholder="ปี (ค.ศ.)" style="width: 20%;"><br>
+								<input class="button button2" type="button" value="Submit" onclick="settimer();">
+								<p id="timer_value"></p>
 
 						<button type="submit" value="สร้าง" formaction="deal_offer_submit.php" class="button button2">สร้าง</button>
 

@@ -5,12 +5,13 @@
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="../style/theme.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script type="text/javascript" src="../js/imagezoom.js"></script>
 	</head>
 	<body>
 
 		<nav>
 			<span>
-				<li><a href="">หน้าหลัก</a></li>
+				<li><a href="home.php">หน้าหลัก</a></li>
 				<li><a href="Create_Adopt.php">สร้างอดอป</a></li>
 				<li><a href="profile.php">โปรไฟล์</a></li>
 				<li><a href="search.php">ค้นหา</a></li>
@@ -53,7 +54,8 @@
 							<!--รูป-->
 							<!--img src="<?php echo $adopt_this['lo_pic']; ?>" alt="main_pic_adopt"><br-->
 					
-			                <img src='<?php echo 'data:image/png;base64,' . base64_encode(file_get_contents('F:/tata/draw/jpg/swane.jpg')); ?>'><br>
+			                <img src='<?php echo 'data:image/png;base64,' . base64_encode(file_get_contents('F:/tata/draw/jpg/bride.jpg')); ?>'><br>
+
 			            </div>
 			        </div>
 					<div class="col-md-7">
@@ -68,6 +70,11 @@
 					</div>
 				</fieldset>
 			</div>
+
+			<?php
+				//include 'ConnextDatabase.php';
+				include 'view_comment.php';
+			?>
 
 	<!--div class="comment"-->
 		<?php
@@ -101,13 +108,7 @@
 				//$adopt_this = call_adopt(2);
 		?>
 			<!--/div-->
-			<!--div class="comment_submit"-->
-				<?php
-
-					include 'comment_submit.php';
-				
-				?>
-			<!--/div-->
+			
 		</div>
 		
 	</body>

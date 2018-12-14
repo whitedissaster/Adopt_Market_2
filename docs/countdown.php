@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<title></title>
-		<script type="text/javascript" src="countdown.js"></script>
+		<script type="text/javascript" src="../js/countdown.js"></script>
 	</head>
 	<body>
 

@@ -8,7 +8,7 @@
 
 		<nav>
 			<span>
-				<li><a href="">หน้าหลัก</a></li>
+				<li><a href="home.php">หน้าหลัก</a></li>
 				<li><a href="Create_Adopt.php">สร้างอดอป</a></li>
 				<li><a href="search.php">ค้นหา</a></li>
 			</span>
@@ -30,14 +30,14 @@
 					<h1>ประวัติการซื้อขาย</h1>
 
 					<!--div class="col-md-5"-->
-				        <div class="his" style="background-color: #FFEFD5">					
+				        <div class="his" style="background-color: #FFEFD5;">					
 				            <h2>ประวัติการซื้อ</h2>
 				            
 				        </div>
 				    <!--/div-->
 
 					<!--div class="col-md-7"-->
-					    <div class="his" style="background-color: #FFEBCD">
+					    <div class="his" style="background-color: #FFEBCD;">
 							<h2>ประวัติการขาย</h2>
 							
 						</div>	

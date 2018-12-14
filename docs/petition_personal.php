@@ -4,12 +4,13 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="../style/theme.css">
+		<script src="../js/birthday.js"></script>
 	</head>
 	<body>
 
 		<nav>
 			<span>
-				<li><a href="">หน้าหลัก</a></li>
+				<li><a href="home.php">หน้าหลัก</a></li>
 				<li><a href="Create_Adopt.php">สร้างอดอป</a></li>
 				<li><a href="view_adopt.php">view adopt</a></li>
 				<li><a href="history.php">ประวัติการซื้อขาย</a></li>
@@ -108,8 +109,6 @@
 				</div>
 			</div>
 		</div>
-
-		<script src="../js/birthday.js"></script>
 
 	</body>
 </html>

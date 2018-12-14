@@ -8,7 +8,7 @@
 
 		<nav>
 			<span>
-				<li><a href="">หน้าหลัก</a></li>
+				<li><a href="home.php">หน้าหลัก</a></li>
 				<li><a href="Create_Adopt.php">สร้างอดอป</a></li>
 				<li><a href="view_adopt.php">view adopt</a></li>
 			</span>
