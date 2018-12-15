@@ -38,7 +38,7 @@
 
 			      		<label>คุณยังไม่ได้สมัครสมาชิก? <i class="fa fa-long-arrow-right"></i></label>
 
-			      		<a href="signup_tab.php" target="_blank" style="text-decoration: none; font-family: 'Kanit', sans-serif;">สมัครสมาชิก</a>
+			      		<a href="signup_tab.php" target="_parent" style="text-decoration: none; font-family: 'Kanit', sans-serif;">สมัครสมาชิก</a>
 
 			    	</div>
 

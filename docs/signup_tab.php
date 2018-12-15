@@ -13,19 +13,20 @@
 		    <fieldset>
 
 		    	<form action="/action_page.php" style="max-width:500px;margin:auto">
+		    	<div class="input-container">
 		    	<h2>Signup Form</h2>
-			  	<div class="input-container">
+			  	
 
 			    <hr>
 			    <label for="usrnm"><b>Username</b></label>
 			    <input class="input-field" type="text" placeholder="Username" name="usrnm" required>
 
 			    <div id="AB" style="display: block;">
-			    	<i class="fa fa-check-circle" style="color: green; font-size: 15px;"> Username นี้สามารถใช้ได้</i><br>
+			    	<i class="fa fa-check-circle" style="color: green; font-size: 15px;"><font face="Kanit"> Username นี้สามารถใช้ได้</i><br>
 				</div>
 
 			    <div id="AB" style="display: block;">
-			    	<i class="fa fa-times-circle" style="color: red; font-size: 15px;"> Username นี้มีผู้ใช้แล้ว</i><br>
+			    	<i class="fa fa-times-circle" style="color: red; font-size: 15px;"><font face="Kanit"> Username นี้มีผู้ใช้แล้ว</i><br>
 			    </div>
             	
 			    <label for="email"><b>Email</b></label>
@@ -37,7 +38,10 @@
 			    <hr>
 			  	</div>
 
-			  	<button type="submit" value="signup" formaction="signup.php">Signup</button>
+			  	<!--a href=javascript:history.back(1)>Cancel</a-->
+			  	<input type=button onClick='window.history.back()' value='Cancel' class="cancelbtn">
+
+			  	<button type="submit" value="signup" formaction="signup.php" class="signupbtn">Signup</button>
 
 				</form>
 
