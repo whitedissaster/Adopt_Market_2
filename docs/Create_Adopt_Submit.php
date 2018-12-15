@@ -12,7 +12,7 @@
 		  	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		  	<a href="home.php">หน้าหลัก</a>
 			<a href="Create_Adopt.php">สร้างอดอป</a>
-			<a href="auction.php">สร้างการประมูล</a>
+			<a href="set_auction.php">สร้างการประมูล</a>
 			<a href="view_adopt.php">view adopt</a>
 			<a href="history.php">ประวัติการซื้อขาย</a>
 			<a href="search.php">ค้นหา</a>

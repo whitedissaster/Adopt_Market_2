@@ -11,7 +11,7 @@
 		  	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		  	<a href="home.php">หน้าหลัก</a>
 			<a href="Create_Adopt.php">สร้างอดอป</a>
-			<a href="auction.php">สร้างการประมูล</a>
+			<a href="set_auction.php">สร้างการประมูล</a>
 			<a href="view_adopt.php">view adopt</a>
 			<a href="history.php">ประวัติการซื้อขาย</a>
 			<a href="search.php">ค้นหา</a>
@@ -65,8 +65,9 @@
 					        <option value="2"> ขายและประมูล </option>
 					    </select> <br><br>
 
-					<button class="button button2" style="width: 200px;">ค้นหาอย่างละเอียด</button> <br>
+					<button class="button button2" style="width: 200px;">ค้นหาอย่างละเอียด</button> <br><br>
 
+					<div id="AB" style="display: block;">
 					<label>สิทธิการใช้อดอป</label> <br>
 						<label>ผู้ซื้อดัดแปลงดีไซน์</label>
 					        <select id="modify" name="deal_modify">
@@ -74,7 +75,7 @@
 					            <option value="0">ไม่อนุญาต</option>
 					            <option value="2">อนุญาตภายใต้เงื่อนไข</option> 
 					        </select> <br>
-					        <div id="modify2" style="display: none">
+					        <div id="modify2" style="display: block;">
 					           	<input type="checkbox" class="switch" name="deal_modify_inform" value=1>แจ้งแก่ผู้วาดทุกครั้งก่อนทำการดัดแปลง
 					        </div>
 
@@ -84,7 +85,7 @@
 					            <option value="0">ไม่อนุญาต</option>
 					            <option value="2">อนุญาตภายใต้เงื่อนไข</option>
 					        </select> <br>
-					        <div id="cuspic2" style="display: none">
+					        <div id="cuspic2" style="display: block;">
 						       	<input type="checkbox" class="switch" name="deal_manuscript_nocommercial" value=1>ไม่ใช่การใช้งานเชิงพาณิชย์<br>
 					         	<input type="checkbox" class="switch" name="deal_manuscript_credit" value=1>ระบุเครดิตเมื่อนำไปใช้<br>
 						        <input type="checkbox" class="switch" name="deal_manuscript_nomodify" value=1>ห้ามทำการดัดแปลง/ต่อเติม/แก้ไขรูปภาพ<br>
@@ -97,13 +98,14 @@
 					            <option value="0">ไม่อนุญาต</option>
 					            <option value="2">อนุญาตภายใต้เงื่อนไข</option>
 					        </select> <br>
-					        <div id="transfer2" style="display: none">
+					        <div id="transfer2" style="display: block;">
 						        <input type="checkbox" class="switch" name = "deal_transfer_inform" value=1>แจ้งแก่ผู้วาดเมื่อมีการเปลี่ยนแปลงผู้ถือสิทธิ์<br>
 					            <input type="checkbox" class="switch" name = "deal_transfer_money" value=1>ผู้วาดมีสิทธิ์เรียกค่าใช้จ่ายเพิ่มเติมเมื่อมีการโอนสิทธิ์<br>
 				            </div>
 
 					    <label>ผู้วาดมีสิทธิ์ในผลงาน</label><br>
 					        <input type="checkbox" class="switch" name="deal_creator_portfolio" value=1>เผยแพร่ภาพในพอร์ตรวบรวมผลงาน<br><br>
+					</div>
 					<button class="button button2">ค้นหา</button>
 				</fieldset>
 			</div>

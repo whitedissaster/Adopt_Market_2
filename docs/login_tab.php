@@ -4,8 +4,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="../style/login_tab.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
-	<body link="black" link="red" alink="gray">
+	<body link="black" vlink="black" alink="gray">
 
 		<!--fieldset-->
 			<?php
@@ -35,9 +36,10 @@
 			        
 			      		<button type="submit" value="login" formaction="login.php">Login</button>
 
-			      		<label>
-			        		<a href="signup.php">สมัครสมาชิก</a>
-			      		</label>
+			      		<label>คุณยังไม่ได้สมัครสมาชิก? <i class="fa fa-long-arrow-right"></i></label>
+
+			      		<a href="signup_tab.php" target="_blank" style="text-decoration: none; font-family: 'Kanit', sans-serif;">สมัครสมาชิก</a>
+
 			    	</div>
 
 				    <div class="container" style="background-color:#CD853F">
