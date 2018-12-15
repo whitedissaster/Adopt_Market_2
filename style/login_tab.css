@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+
 body {
-  	font-family: Arial, Helvetica, sans-serif;*/
+  	font-family: 'Kanit', sans-serif;
 }
 
 /* Full-width input fields */
@@ -66,20 +68,6 @@ button:active {
   	right:0px;
 }
 
-.signup {
-  	width: auto;
-  	padding: 14px 18px;
-  	background-color: #9C9C9C;
-}
-
-.signup:hover {
-	background-color: #696969;
-}
-
-.signup:active {
-  background-color: #000000;
-}
-
 /* Center the image and position the close button */
 .imgcontainer {
   	text-align: center;
@@ -100,7 +88,6 @@ span.psw {
 
 /* The Modal (background) */
 .modal {
-  	border-radius: 10px;
   	display: none; /* Hidden by default */
   	position: fixed; /* Stay in place */
   	z-index: 1; /* Sit on top */
@@ -116,6 +103,7 @@ span.psw {
 
 /* Modal Content/Box */
 .modal-content {
+	font-family: 'Kanit', sans-serif;
   	border-radius: 10px;
   	background: #FFDEAD;
   	/*background-color: #fefefe;*/
@@ -127,7 +115,7 @@ span.psw {
 /* The Close Button (x) */
 .close {
   	position: absolute;
-  	right: 25px;
+  	right: 0;
   	top: 0;
   	color: #000;
   	font-size: 35px;

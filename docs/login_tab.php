@@ -5,7 +5,7 @@
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="../style/login_tab.css">
 	</head>
-	<body>
+	<body link="black" link="red" alink="gray">
 
 		<!--fieldset-->
 			<?php
@@ -16,7 +16,7 @@
 			    else
 			{?>
 		    <br>
-	        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login / Sign up</button>
+	        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
 			<div id="id01" class="modal">
 			  
@@ -33,12 +33,10 @@
 			      		<label for="psw"><b>Password</b></label>
 			      		<input type="password" placeholder="user_password" name="psw" required>
 			        
-			      		<button type="submit" value="login" formaction="login.php" style="width: 49.5%;">Login</button>
-
-			      		<button type="submit" value="login" formaction="sign_up.php" style="width: 49.5%;" class="signup">Sign up</button><br>
+			      		<button type="submit" value="login" formaction="login.php">Login</button>
 
 			      		<label>
-			        		<input type="checkbox" checked="checked" name="remember"> Remember me
+			        		<a href="signup.php">สมัครสมาชิก</a>
 			      		</label>
 			    	</div>
 

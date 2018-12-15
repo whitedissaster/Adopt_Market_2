@@ -39,6 +39,10 @@
 
 						<input type="file" name="fileToUpload" accept="image/x-png,image/gif,image/jpeg"><br><br-->
 
+						<label>ใส่ภาพบัตรประชาชน</label><br>
+
+						<input type="file" name="fileToUpload" accept="image/x-png,image/gif,image/jpeg"><br><br>
+
 						<label>ชื่อจริง</label><br>
 						<input type="text" id="" name="personal_firstname" placeholder="ชื่อจริง"><br><br>
 
