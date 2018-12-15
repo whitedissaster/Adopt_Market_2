@@ -10,7 +10,7 @@
 		<div id="mySidenav" class="sidenav">
 		  	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		  	<a href="home.php">หน้าหลัก</a>
-			<a href="view_adopt.php">view adopt</a>
+			<a href="adopt.php">view adopt</a>
 			<a href="search.php">ค้นหา</a>
 		</div>
 
