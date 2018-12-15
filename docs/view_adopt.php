@@ -9,7 +9,7 @@
 		<div class="row">           
 			<fieldset>
 
-				<a href="report_adopt.php"><button class="reportbtn"><i class="fa fa-warning" style="height: 20px;"></i></button></a>
+				<a href="report_adopt.php"><button class="btn" style="color: yellow"><i class="fa fa-warning" style="height: 20px;"></i></button></a>
 
 				<h1>ข้อมูลอดอป</h1>
 

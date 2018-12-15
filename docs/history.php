@@ -33,14 +33,14 @@
 					<h1>ประวัติการซื้อขาย</h1>
 
 					<!--div class="col-md-5"-->
-				        <div class="his" style="background-color: #FFEFD5;">					
+				        <div class="his">					
 				            <h2>ประวัติการซื้อ</h2>
 				            
 				        </div>
 				    <!--/div-->
 
 					<!--div class="col-md-7"-->
-					    <div class="his" style="background-color: #FFEBCD;">
+					    <div class="his2">
 							<h2>ประวัติการขาย</h2>
 							
 						</div>	
