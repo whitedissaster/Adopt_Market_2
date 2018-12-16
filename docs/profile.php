@@ -10,7 +10,7 @@
 
 		<div id="mySidenav" class="sidenav">
 		  	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		  	<a href="home.php">หน้าหลัก</a>
+		  	<!--a href="home.php">หน้าหลัก</a-->
 			<a href="Create_Adopt.php">สร้างอดอป</a>
 			<a href="set_auction.php">สร้างการประมูล</a>
 			<a href="history.php">ประวัติการซื้อขาย</a>
@@ -45,12 +45,14 @@
 			            </div>
 			            
 			            <div class="about_right">
-							<p>ข้อมูลส่วนตัว<br></p>
+							<h3>ข้อมูลส่วนตัว<br></h3>
 							<label>Username : AllAllNz</label><br><br>
 							<label>Password : *************</label><br><br>
 							<label>เพศ : หญิง</label><br><br>
+						</div>
 
 				</fieldset>
+
 			</div>
 		</div>
 

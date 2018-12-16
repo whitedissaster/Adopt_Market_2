@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="../style/theme.css">
 		<script src="../js/menu.js"></script>
@@ -9,7 +10,7 @@
 
 		<div id="mySidenav" class="sidenav">
 		  	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		  	<a href="home.php">หน้าหลัก</a>
+		  	<!--a href="home.php">หน้าหลัก</a-->
 			<a href="adopt.php">view adopt</a>
 			<a href="search.php">ค้นหา</a>
 		</div>

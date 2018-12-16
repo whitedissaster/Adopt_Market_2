@@ -10,7 +10,7 @@
 		
 		<div id="mySidenav" class="sidenav">
 		  	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		  	<a href="home.php">หน้าหลัก</a>
+		  	<!--a href="home.php">หน้าหลัก</a-->
 			<a href="Create_Adopt.php">สร้างอดอป</a>
 			<a href="set_auction.php">สร้างการประมูล</a>
 			<a href="adopt.php">view adopt</a>
@@ -33,13 +33,7 @@
 						<form id="report_adopt" action="" method="post" enctype="multipart/form-data">
 
 						<h1>รายงานการละเมิดลิขสิทธิ์</h1>
-
-						<label>ชื่อผู้ละเมิด</label><br>
-						<input type="text" id="" name="username_report" placeholder="Username"><br><br>
-
-						<label>สินค้าที่ละเมิด</label><br>
-						<input type="text" id="" name="adopt_report" placeholder="Username"><br><br>
-
+						
 						<label>หลักฐานการละเมิด</label><br>
 						<input type="file" name="fileToUpload" accept="image/x-png,image/gif,image/jpeg"><br><br>
 

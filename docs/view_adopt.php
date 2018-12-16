@@ -3,13 +3,20 @@
 	<head>
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="../style/theme.css">
-		<script src="../js/menu.js"></script>
 	</head>
 	<body>
 		<div class="row">           
 			<fieldset>
 
 				<a href="report_adopt.php"><button class="btn" style="color: yellow"><i class="fa fa-warning" style="height: 20px;"></i></button></a>
+
+				<!--div class="report">
+					<?php
+						//include 'ConnextDatabase.php';
+						//$adopt_id = $_GET["adopt_id"];
+						//include 'rreport_adopt.php';
+					?>
+				</div-->
 
 				<h1>ข้อมูลอดอป</h1>
 

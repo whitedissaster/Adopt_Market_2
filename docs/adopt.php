@@ -11,7 +11,7 @@
 
 		<div id="mySidenav" class="sidenav">
 		  	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		  	<a href="home.php">หน้าหลัก</a>
+		  	<!--a href="home.php">หน้าหลัก</a-->
 			<a href="Create_Adopt.php">สร้างอดอป</a>
 			<a href="set_auction.php">สร้างการประมูล</a>
 			<a href="adopt.php">view adopt</a>
@@ -20,16 +20,6 @@
 		</div>
 
 		<span onclick="openNav()">&#9776; Menu</span>
-
-		<!--div class="signup">
-			<?php
-				//include 'ConnextDatabase.php';
-				//$adopt_id = $_GET["adopt_id"];
-
-
-				//include 'sign_up_tab.php';
-			?>
-		</div-->
 
 		<div class="login">
 			<?php

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+
+.auc {
+	background-color: #FFEFD5;
+	border-radius: 10px;
+	float: left;
+	width: 93%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+	.auc_1 {
+		background-color: #FFFF99;
+		border-radius: 10px;
+		float: left;
+		width: 90%;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin: 10px;
+	}
+
+	.auc_2 {
+		background-color: #FFCCCC;
+		border-radius: 10px;
+		float: left;
+		width: 90%;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin: 10px;
+	}
+
+.auc2 {
+	background-color: #FFEBCD;
+	border-radius: 10px;
+	float: left;
+	width: 93%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+i {
+	margin: 10px;
+	top: 10px;
+}
+
+	.auc2_1 {
+		background-color: #CCFF99;
+		border-radius: 10px;
+		float: left;
+		width: 90%;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin: 10px;
+	}
+
+		.auc2_1_1 {
+			background-color: #99FFCC;
+			border-radius: 10px;
+			float: left;
+			width: 90%;
+			padding-left: 10px;
+			padding-right: 10px;
+			margin: 10px;
+		}
+
+@media (min-width: 750px) {
+	.auc {
+		background-color: #FFEFD5;
+		border-radius: 10px;
+		float: left;
+		width: 45%;
+		-webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	}
+
+	.auc2 {
+		background-color: #FFEBCD;
+		border-radius: 10px;
+		float: right;
+		width: 45%;
+		padding-left: 10px;
+		padding-right: 10px;
+		-webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	}
+}
