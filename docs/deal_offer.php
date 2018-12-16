@@ -18,6 +18,8 @@
 				<a href="search.php">ค้นหา</a>
 		</div>
 
+		<span onclick="openNav()">&#9776; Menu</span>
+
 		<div class="login">
 			<?php
 				//include 'ConnextDatabase.php';

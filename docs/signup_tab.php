@@ -10,6 +10,7 @@
 	<body>
 
 		<div class="all" style="border-radius: 10px;">
+			<div class="row">
 		    <fieldset>
 
 		    	<form action="/action_page.php" style="max-width:500px;margin:auto">
@@ -47,11 +48,12 @@
 			  	<!--a href=javascript:history.back(1)>Cancel</a-->
 			  	<input type=button onClick='window.history.back()' value='Cancel' class="cancelbtn">
 
-			  	<button type="submit" value="signup" formaction="signup.php" class="signupbtn">Sign Up</button>
+			  	<button type="submit" value="signup" formaction="signup.php" class="signupbtn" style="font-family: 'Kanit', sans-serif; height: 46px;">Sign Up</button>
 
 				</form>
 
 		    </fieldset>
+		    </div>
 		</div>
 		<!--/fieldset-->
 

@@ -27,8 +27,7 @@
 		</div>
 
 		<div class="all">
-			<div class="col-md-7">
-		        <div class="about_right">
+		        <div class="row">
 		        	<fieldset>
 
 						<h2>ตั้งประมูล</h2>
@@ -99,6 +98,8 @@
 
 					</form>
 					</fieldset>
+				</div>
+			</div>
 
 					<?php
 					//include 'view_adopt.php';

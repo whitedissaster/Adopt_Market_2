@@ -26,8 +26,7 @@
 		</div>
 
 		<div class="all">
-			<div class="col-md-7">
-		        <div class="about_right">
+		        <div class="row">
 					<fieldset>
 						<form id="edit_profile" action="" method="post" enctype="multipart/form-data">
 
@@ -73,7 +72,6 @@
 						</form>
 					</fieldset>
 				</div>
-			</div>
 		</div>
 
 		<script src="../js/birthday.js"></script>

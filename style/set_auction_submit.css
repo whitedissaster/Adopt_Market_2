@@ -105,3 +105,16 @@ i {
 	    box-sizing: border-box;
 	}
 }
+
+/*start*/
+.none_price {
+	color: #CFCFCF;
+	background-color: #696969;
+	border-radius: 7px;
+	padding: 0 10px;
+	margin-left: 5%;
+	width: 50%;
+	float: left;
+	margin-bottom: 10px;
+	text-align: center;
+}

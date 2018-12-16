@@ -27,8 +27,7 @@
 		</div>
 
 		<div class="all">
-			<div class="col-md-7">
-		        <div class="about_right">
+		        <div class="row">
 					<fieldset>
 						<form id="petition_personal" action="" method="post" enctype="multipart/form-data">
 
@@ -83,7 +82,6 @@
 						</form>
 					</fieldset>
 				</div>
-			</div>
 		</div>
 
 	</body>

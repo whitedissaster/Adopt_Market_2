@@ -58,13 +58,9 @@
 							  	<input type="number" min="1" max="9" value="1">
 							  	<input type="submit" name="submit"><br><br>
 							</div-->
-							<?php
-				//include 'ConnextDatabase.php';
-				$adopt_id = $_GET["adopt_id"];
-
-
-				include 'input_price.php';
-			?>
+							<div class="none_price">
+								<p>ยังไม่เปิดประมูล</p>
+							</div>
 								
 						</div>
 
