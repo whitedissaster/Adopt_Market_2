@@ -65,10 +65,10 @@
 						        </select>
 
 						    <div class="datetime">
-								<label>วันที่ : </label>
-								 	<input type="date" name="auction_start_day" min="<?php echo date('Y-m-d'); ?>"><br>
-								<label>เวลา : </label>
-								 	<input type="time" name="auction_start_time"><br>
+								<label>วัน-เวลาที่เริ่ม : </label>
+								 	<input type="datetime-local" name="auction_start_day" min="<?php echo date('Y-m-d'); ?>"><br>
+								<!--label>เวลา : </label>
+								 	<input type="time" name="auction_start_time"><br-->
 							</div>
 						<br><br>
 

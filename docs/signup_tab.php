@@ -19,7 +19,7 @@
 
 			    <hr>
 			    <label for="usrnm"><b>Username</b></label>
-			    <input class="input-field" type="text" placeholder="Username" name="usrnm" required>
+			    <input class="input-field" type="text" placeholder="Enter Username" name="usrnm" required>
 
 			    <div id="AB" style="display: block;">
 			    	<i class="fa fa-check-circle" style="color: green; font-size: 15px;"><font face="Kanit"> Username นี้สามารถใช้ได้</i><br>
@@ -30,10 +30,10 @@
 			    </div>
             	
 			    <label for="email"><b>Email</b></label>
-			    <input class="input-field" type="text" placeholder="Email" name="email" required>
+			    <input class="input-field" type="text" placeholder="Enter Email" name="email" required>
 
 			    <label for="psw"><b>Password</b></label>
-			    <input class="input-field" type="password" placeholder="Password" name="psw" id="myInput" required>
+			    <input class="input-field" type="password" placeholder="Enter Password" name="psw" id="myInput" required>
 			    <input type="checkbox" onclick="myFunction()">Show Password
 			    <hr>
 			  	</div>

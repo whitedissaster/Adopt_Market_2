@@ -21,7 +21,7 @@
 
 			<div id="id01" class="modal">
 			  
-			  	<form class="modal-content animate" action="/action_page.php">
+			  	<form class="modal-content animated zoomIn" action="/action_page.php">
 			    	<div class="imgcontainer">
 			      		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
 			      
@@ -32,7 +32,7 @@
 			      		<input type="text" placeholder="Enter Username" name="uname" required>
 
 			      		<label for="psw"><b>Password</b></label>
-			      		<input type="password" placeholder="user_password" name="psw" required>
+			      		<input type="password" placeholder="Enter Password" name="psw" required>
 			        
 			      		<button type="submit" value="login" formaction="login.php">Login</button>
 
@@ -53,7 +53,7 @@
 				var modal = document.getElementById('id01');
 
 				// When the user clicks anywhere outside of the modal, close it
-				window.onclick = function(event) {
+				document.onclick = function(event) {
 			    	if (event.target == modal) {
 			        modal.style.display = "none";
 			    	}

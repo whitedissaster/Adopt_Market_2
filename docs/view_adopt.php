@@ -8,15 +8,13 @@
 		<div class="row">           
 			<fieldset>
 
-				<a href="report_adopt.php"><button class="btn" style="color: yellow"><i class="fa fa-warning" style="height: 20px;"></i></button></a>
-
-				<!--div class="report">
+				<div class="report">
 					<?php
 						//include 'ConnextDatabase.php';
 						//$adopt_id = $_GET["adopt_id"];
-						//include 'rreport_adopt.php';
+						include 'report_adopt.php';
 					?>
-				</div-->
+				</div>
 
 				<h1>ข้อมูลอดอป</h1>
 

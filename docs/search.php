@@ -33,12 +33,7 @@
 			<div class="row">
 				<fieldset>
 					<h1>ค้นหาอดอป</h1>
-					<label>ชื่อผู้ขาย</label>
-						<input type="text" name="user_alias" placeholder="ชื่อผู้ขาย"> <br><br>
-
-					<label>ชื่อสินค้า</label><br>
-						<input type="text" id="" name="adopt_name" placeholder="ชื่ออดอป..."><br><br>
-
+					
 					<label>หมวดหมู่</label>
 				        <select name="adopt_type">
 				        	<option value="people">คน</option>
