@@ -131,9 +131,11 @@ span.psw {
 /* log out */
 .logoutbtn {
     position:absolute;
-    top: 3em;
-    right: 7%;
+    top: 36px;
+    right: 8%;
+    height: 41px;
     background-color: #f44336;
+    padding: 12px;
     float: left;
 }
 
@@ -147,9 +149,8 @@ span.psw {
 
 p.u_name {
   color: white;
-  margin-right: 66px;
   margin-top: 44px;
-  width: auto;
+  width: 205px;
   height: 35px;
   background-color: #F4A460;
   padding: 5px 8px 0 8px;

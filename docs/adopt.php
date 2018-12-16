@@ -23,10 +23,7 @@
 
 		<div class="login">
 			<?php
-				//include 'ConnextDatabase.php';
-				$adopt_id = $_GET["adopt_id"];
-
-
+				
 				include 'login_tab.php';
 			?>
 		</div>

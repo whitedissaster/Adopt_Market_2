@@ -9,7 +9,7 @@
 	</head>
 	<body>
 
-		<button onclick="document.getElementById('id02').style.display='block'" class="btn" style="color: yellow"><i class="fa fa-warning" style="height: 20px;"></i></button></a>
+		<button onclick="document.getElementById('id02').style.display='block'" class="btn" style="color: yellow"><i class="fa fa-warning" style="height: 15px;"></i></button></a>
 
 		<div id="id02" class="rmodal">
 		  	<form class="rmodal-content animated zoomIn" action="/action_page.php">

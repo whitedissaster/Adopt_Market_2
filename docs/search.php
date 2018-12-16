@@ -21,9 +21,6 @@
 
 		<div class="login">
 			<?php
-				//include 'ConnextDatabase.php';
-				$adopt_id = $_GET["adopt_id"];
-
 
 				include 'login_tab.php';
 			?>
@@ -148,7 +145,20 @@
 					<button class="button button2">ค้นหา</button>
 
 					<div id="A" style="display: block;">
-						<fieldset></fieldset>
+						<fieldset>
+							<div class="s_result">
+							  	<img src="../frog.jpg" style="width:100%">
+							  	<p class="n_result">ชื่อสินค้า</p>
+							  	<p class="status">สถานะการประมูล</p>
+							  	<p><div class="saler">
+									<a href="profile.php">
+						  				<img src="../Nightp.jpg" alt="Avatar" class="r_avatar">
+									</a>
+									<p style="margin-right: 10%">ผู้ขาย</p>
+								</div></p>
+							  	<p><button class="resultbtn" type="submit">ดูสินค้า</button></p>
+							</div>
+						</fieldset>
 					</div>
 				</fieldset>
 			</div>
