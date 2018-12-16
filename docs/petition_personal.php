@@ -4,7 +4,6 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="../style/theme.css">
-		<script src="../js/birthday.js"></script>
 		<script src="../js/menu.js"></script>
 	</head>
 	<body>
@@ -53,39 +52,7 @@
 						<input type="text" id="widget1" name="personal_citizen_id" placeholder="รหัสประชาชน"><br><br>
 
 						<label>วันเกิด </label>
-
-						<?php 
-	 						//$rows['Birthdate'] ="1986-02-12";
-							$Birthdate = explode('-', $rows['Birthdate']);
-							$d = $Birthdate[2];
-							$m = $Birthdate[1];
-							$y = $Birthdate[0]+543;
-
-
-						    $month = array("มกราคม","กุมภาพันธ์","มีนาคม","เมษายน","พฤษภาคม","มิถุนายน","กรกฎาคม","สิงหาคม","กันยายน","ตุลาคม","พฤศจิกายน","ธันวาคม"); 
-						?>
-	 
-	 					<select name="new_Date"  id="new_Date" onchange="getAge()">
-       						<option value='null'>date</option>
-       						<?php foreach (range (1, 31) as $resl) { 
-		   					?>
-       						<option value="<?=$resl?>"  <?if($resl ==$d) echo "selected"?>> <?=$resl?> </option>
-	   						<?php } ?>
-	   					</select>
-	   
-	 					<select name="new_Month" id="new_Month" onchange="getAge()"> 
-        					<option value='null'>Month</option>
-	    					<?php foreach ($month as $key=>$resl) { ?> 
-        					<option value="<?=$key?>" <?if($key ==$m-1) echo "selected"?>> <?=$resl?> </option>    
-	 	   					<?php } ?>
-	 	   				</select>
-  
-    					<select name="new_Years" id="new_Years" onchange="getAge()">
-      						<option value='null' >Years</option> 
-	  						<?php foreach (range (2500, 2561) as $resl) { ?>
-      						<option value="<?=$resl?>" <?if($resl ==$y) echo "selected"?>> <?=$resl?> </option>
-      						<?php } ?>
-      					</select><br><br>
+						<input type="date" name="birthdate" min="<?php echo date('Y-m-d'); ?>"><br>
 
       					<label>ที่อยู่</label><br>
       					<label>บ้านเลขที่ : </label>

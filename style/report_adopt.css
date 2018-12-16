@@ -5,7 +5,7 @@ body {
 }
 
 /* Full-width input fields */
-textarea {
+.rtextarea {
 	border-radius: 5px;
   	width: 100%;
   	padding: 15px;
@@ -24,7 +24,7 @@ textarea {
 }
 
 /* Add a background color when the inputs get focus */
-textarea:focus {
+.rtextarea:focus {
   	background-color: #FFFFFF;
   	outline: none;
 }
@@ -47,7 +47,7 @@ button:hover {
 }
 
 button:active {
-  background-color: #000000;
+    background-color: #000000;
 }
 
 /* Extra styles for the cancel button */
@@ -155,18 +155,18 @@ span.psw {
 
 /* Clear floats */
 .clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
 	span.psw {
     	display: block;
-     	float: none;
+    	float: none;
   }
   	.rcancelbtn, .submitbtn {
-     	width: 100%;
+    	width: 100%;
   }
 }

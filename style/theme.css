@@ -169,6 +169,7 @@ textarea {
     font-family: 'Kanit', sans-serif;
     font-size: 14pt;
     resize: none;
+    border-style: inset;
 }
 
 span {
