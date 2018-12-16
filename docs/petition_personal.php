@@ -74,7 +74,7 @@
 
 						<!--input type="submit" value="สร้าง" formaction="Create_Adopt_Submit.php"-->
 
-						<button type="submit" value="ย้อนกลับ" formaction="edit_profile.php" class="button button2">ย้อนกลับ</button>
+						<input type=button onClick='window.history.back()' value='Back' class="cancelbtn" style="border: none; color: #FFF; height: 48px; width: 100px;">
 
 						<button type="submit" value="ยืนยัน" formaction="personal_assure.php" class="button button2">ยืนยัน</button>
 

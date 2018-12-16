@@ -15,7 +15,8 @@ a,button{outline: 0 !important;}
 a:hover,a:focus{ text-decoration: none}
 
 .about_right {
-    margin-left: 0px;
+	float: left;
+    margin-left: 10%;
     margin-top: 0px;
     overflow: hidden;
     padding: 18px 25px 25px 30px;
@@ -35,6 +36,7 @@ a:hover,a:focus{ text-decoration: none}
     z-index: 1;
     float: left;
     width: 30%;
+    margin-left: 10%;
 }
 
 .his {
@@ -166,7 +168,7 @@ a:hover,a:focus{ text-decoration: none}
   	margin: 8px 0;
   	border: none;
   	cursor: pointer;
-  	width: 50%;
+  	width: 100%;
   	float: left;
 }
 

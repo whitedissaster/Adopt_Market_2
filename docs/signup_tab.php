@@ -26,7 +26,7 @@
 			    	<i class="fa fa-check-circle" style="color: green; font-size: 15px;"><font face="Kanit"> Username นี้สามารถใช้ได้</i><br>
 				</div>
 
-			    <div id="AB" style="display: block;">
+			    <div id="AB" style="display: none;">
 			    	<i class="fa fa-times-circle" style="color: red; font-size: 15px;"><font face="Kanit"> Username นี้มีผู้ใช้แล้ว</i><br>
 			    </div>
             	
@@ -46,7 +46,7 @@
 			  	</div>
 
 			  	<!--a href=javascript:history.back(1)>Cancel</a-->
-			  	<input type=button onClick='window.history.back()' value='Cancel' class="cancelbtn">
+			  	<input type=button onClick='window.history.back()' value='Back' class="cancelbtn" style="border: none; color: #FFF; height: 48px; width: 100px;">
 
 			  	<button type="submit" value="signup" formaction="signup.php" class="signupbtn" style="font-family: 'Kanit', sans-serif; height: 46px;">Sign Up</button>
 

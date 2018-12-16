@@ -30,11 +30,12 @@
 		        </div>
 				<div class="col-md-7">
 			        <div class="about_right">
-						<p>ประเภท : aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<!--?php echo $adopt_this['type']; ?--><br></p>
-						<p>ชื่อ : bbb<!--?php echo $adopt_this['name']; ?--><br></p>
-						<p>แท็ค : ooo<!--?php echo implode(", ",$adopt_this['tag']); ?--><br></p>
-						<p>รายละเอียด : eeee<!--?php echo $adopt_this['detail']; ?--><br></p>
-						<p>โดย : ggg<!--?php echo $adopt_this['user_create']; ?--><br></p>
+						<p>ชื่อสินค้า : เจ้าสาว<!--?php echo $adopt_this['type']; ?--><br></p>
+						<p>หมวดหมู่ : คน<!--?php echo $adopt_this['name']; ?--><br></p>
+						<p>ธีม : เจ้าสาว<!--?php echo implode(", ",$adopt_this['tag']); ?--><br></p>
+						<p>เพศ : หญิง<!--?php echo $adopt_this['detail']; ?--><br></p>
+						<p>รายละเอียด : เจ้าสาวถ่ายพรีเว็ดดิ้ง แต่ไม่มีเจ้าบ่าวล่ะ (?)<!--?php echo $adopt_this['user_create']; ?--><br></p>
+						<p>โดย : Adopt<!--?php echo $adopt_this['user_create']; ?--><br></p>
 
 					</div>	
 				</div>

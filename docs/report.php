@@ -17,7 +17,7 @@
 			        
 			        <input type=button onClick='window.history.back()' value='Back' class="backbtn">
 
-			      	<a href="profile.php"><button class="profilebtn" type="submit" value="login" formaction="profile.php">กลับหน้าโปรไฟล์</button></a>
+			      	<a href="profile.php"><button class="profilebtn" type="submit" value="login" formaction="profile.php" style="width: 50%;">กลับหน้าโปรไฟล์</button></a>
 
 				</fieldset>
 

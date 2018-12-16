@@ -14,8 +14,6 @@
 				<fieldset>
 				        
 				    <p style="text-align: center;">กรุณารอการอนุมัติจากแอดมิน</p>
-			        
-			      	<input type=button onClick='window.history.back()' value='Back' class="backbtn">
 
 			      	<a href="profile.php"><button class="profilebtn" type="submit" value="login" formaction="profile.php">กลับหน้าโปรไฟล์</button></a>
 

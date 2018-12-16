@@ -46,9 +46,13 @@
 			            
 			            <div class="about_right">
 							<h3>ข้อมูลส่วนตัว<br></h3>
-							<label>Username : AllAllNz</label><br><br>
-							<label>Password : *************</label><br><br>
-							<label>เพศ : หญิง</label><br><br>
+							<label>User Id : 007</label><br><br>
+							<label>Username : Adopt</label><br><br>
+							<label>วัน/เวลาที่ลงทะเบียน : 09/09/2017</label><br><br>
+							<label>วัน/เวลาที่เข้าสู่ระบบครั้งล่าสุด : 16/12/2018</label><br><br>
+
+							<a href="petition_personal.php"><button type="submit" value="ยืนยันตัวตน" class="button button2">ยืนยันตัวตน</button>
+
 						</div>
 
 				</fieldset>
