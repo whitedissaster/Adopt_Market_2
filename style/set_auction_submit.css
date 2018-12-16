@@ -20,7 +20,7 @@
 	}
 
 	.h_price {
-		background-color: #696969;
+		background-color: #8B8878;
 		border-radius: 7px;
 		padding: 0 5px;
 		margin-left: 1%;
@@ -93,7 +93,7 @@ i {
 		}
 
 		.a_member_price {
-			background-color: lightgray;
+			background-color: #8B8878;
 			border-radius: 10px;
 			float: left;
 			width: 45%;
@@ -102,23 +102,23 @@ i {
 		}
 
 			.a_price {
-				background-color: lightblue;
+				background-color: #8B8878;
 				border-radius: 10px;
 				float: left;
 				width: 40%;
 				padding-left: 10px;
-				margin: 5px;
+				margin: 15px 5px 5px 5px;
 				font-size: 20pt;
 			}
 
 			.a_time {
-				background-color: lightblue;
+				background-color: #8B8878;
 				border-radius: 10px;
 				float: right;
-				width: 25%;
+				width: 60%;
 				padding-left: 10px;
 				padding-right: 10px;
-				margin: 5px;
+				margin: 1%;
 				font-size: 10pt;
 				text-align: right;
 			}
@@ -130,14 +130,14 @@ i {
 			width: 40%;
 			padding-left: 10px;
 			padding-right: 1%;
-			margin: 5px;
+			margin: 1%;
 		}
 
 			.n_member {
 				background-color: #FFBBFF;
 				border-radius: 10px;
 				float: left;
-				width: 37%;
+				width: 42%;
 				padding-left: 10px;
 				padding-right: 10px;
 				margin: 5px;
