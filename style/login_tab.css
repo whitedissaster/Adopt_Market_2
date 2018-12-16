@@ -51,17 +51,6 @@ button:active {
   background-color: #000000;
 }
 
-.logoutbtn {
-  	position:absolute;
-  	top:0px;
-  	right:0px;
-  	background-color: #f44336;
-}
-
-.logoutbtn:hover {
-	background-color: #B22222;
-}
-
 .login {
   	position:absolute;
   	top:0px;
@@ -137,4 +126,26 @@ span.psw {
   .cancelbtn {
      width: 100%;
   }
+}
+
+/* log out */
+.logoutbtn {
+    position:absolute;
+    top: 3em;
+    right: 7%;
+    background-color: #f44336;
+    float: left;
+}
+
+.logoutbtn:hover {
+  background-color: #B22222;
+}
+
+.logoutbtn:active {
+  background-color: #000000; 
+}
+
+p .u_name {
+  color: white;
+  margin-right: 7%; 
 }

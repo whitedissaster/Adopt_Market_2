@@ -10,7 +10,7 @@
 }
 
 	.auc_1 {
-		background-color: #FFFF99;
+		background-color: #E8E8E8;
 		border-radius: 10px;
 		float: left;
 		width: 90%;
@@ -22,9 +22,9 @@
 	.h_price {
 		background-color: #696969;
 		border-radius: 7px;
-		padding: 0 10px;
-		margin-left: 5%;
-		width: 25%;
+		padding: 0 5px;
+		margin-left: 1%;
+		width: 50%;
 		float: left;
 		margin-bottom: 10px;
 	}
@@ -35,7 +35,7 @@
 		padding: 0 10px;
 		float: left;
 		width: 40%;
-		margin: 1.5px 0 0 30px;
+		margin: 1.5px 0 10px 5px;
 	}
 
 	.auc_2 {
@@ -51,7 +51,7 @@
 .auc2 {
 	background-color: #FFEBCD;
 	border-radius: 10px;
-	float: left;
+	float: right;
 	width: 93%;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -82,12 +82,86 @@ i {
 			margin: 10px;
 		}
 
-/*@media (min-width: 750px) {
+		.a_member {
+			background-color: #EED2EE;
+			border-radius: 10px;
+			float: left;
+			width: 93%;
+			padding-left: 1%;
+			padding-right: 1%;
+			margin: 10px;
+		}
+
+		.a_member_price {
+			background-color: lightgray;
+			border-radius: 10px;
+			float: left;
+			width: 45%;
+			padding-left: 10px;
+			margin: 10px;
+		}
+
+			.a_price {
+				background-color: lightblue;
+				border-radius: 10px;
+				float: left;
+				width: 40%;
+				padding-left: 10px;
+				margin: 5px;
+				font-size: 20pt;
+			}
+
+			.a_time {
+				background-color: lightblue;
+				border-radius: 10px;
+				float: right;
+				width: 25%;
+				padding-left: 10px;
+				padding-right: 10px;
+				margin: 5px;
+				font-size: 10pt;
+				text-align: right;
+			}
+
+		.a_member_pic {
+			background-color: lightblue;
+			border-radius: 10px;
+			float: left;
+			width: 40%;
+			padding-left: 10px;
+			padding-right: 1%;
+			margin: 5px;
+		}
+
+			.n_member {
+				background-color: #FFBBFF;
+				border-radius: 10px;
+				float: left;
+				width: 37%;
+				padding-left: 10px;
+				padding-right: 10px;
+				margin: 5px;
+				font-size: 10pt;
+				text-align: right;
+			}
+
+			.avatar {
+				float: right;
+				padding-left: 5px;
+				padding-right: 1%;
+				margin: 7px 5px 5px 5px;
+				vertical-align: middle;
+				width: 50px;
+				height: 50px;
+				border-radius: 50%;
+			}
+
+@media (min-width: 750px) {
 	.auc {
 		background-color: #FFEFD5;
 		border-radius: 10px;
 		float: left;
-		width: 45%;
+		width: 49%;
 		-webkit-box-sizing: border-box;
 	    -moz-box-sizing: border-box;
 	    box-sizing: border-box;
@@ -97,14 +171,14 @@ i {
 		background-color: #FFEBCD;
 		border-radius: 10px;
 		float: right;
-		width: 45%;
+		width: 49%;
 		padding-left: 10px;
 		padding-right: 10px;
 		-webkit-box-sizing: border-box;
 	    -moz-box-sizing: border-box;
 	    box-sizing: border-box;
 	}
-}/*/
+}
 
 /*start*/
 .none_price {

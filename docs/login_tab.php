@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title></title>
@@ -11,40 +11,43 @@
 
 		<!--fieldset-->
 			<?php
-			    if(isset($_SESSION['id']) && !empty($_SESSION['id'])) {
-			    	echo 'now user :'.$_SESSION["user"].' [ID-'.$_SESSION["id"].']';?>
-			    	<button onclick="window.location.href='logout.php'" class="logoutbtn">Logout</button><?php
+			    if(1){
+
+			    	echo '<div class="u_name"> now user:'." WhiteGodDess";?>
+			    </div>
+			    	<button onclick="window.location.href='logout.php'" class="logoutbtn" style="width: auto;">Logout</button><?php
 			    }
 			    else
-			{?>
-		    <br>
-	        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+			{ echo "
 
-			<div id="id01" class="modal">
+		    <br>
+	        <button onclick=\"document.getElementById('id01').style.display='block'\" style=\"width:auto;\">Login</button>
+
+			<div id=\"id01\" class=\"modal\">
 			  
-			  	<form class="modal-content animated zoomIn" action="/action_page.php">
-			    	<div class="imgcontainer">
-			      		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+			  	<form class=\"modal-content animated zoomIn\" action=\"/action_page.php\">
+			    	<div class=\"imgcontainer\">
+			      		<span onclick=\"document.getElementById('id01').style.display='none'\" class=\"close\" title=\"Close Modal\">&times;</span>
 			      
 			    	</div>
 
-			    	<div class="container">
-			      		<label for="uname"><b>Username</b></label>
-			      		<input type="text" placeholder="Enter Username" name="uname" required>
+			    	<div class=\"container\">
+			      		<label for=\"uname\"><b>Username</b></label>
+			      		<input type=\"text\" placeholder=\"Enter Username\" name=\"uname\" required>
 
-			      		<label for="psw"><b>Password</b></label>
-			      		<input type="password" placeholder="Enter Password" name="psw" required>
+			      		<label for=\"psw\"><b>Password</b></label>
+			      		<input type=\"password\" placeholder=\"Enter Password\" name=\"psw\" required>
 			        
-			      		<button type="submit" value="login" formaction="login.php">Login</button>
+			      		<button type=\"submit\" value=\"login\" formaction=\"login.php\">Login</button>
 
-			      		<label>คุณยังไม่ได้สมัครสมาชิก? <i class="fa fa-long-arrow-right"></i></label>
+			      		<label>คุณยังไม่ได้สมัครสมาชิก? <i class=\"fa fa-long-arrow-right\"></i></label>
 
-			      		<a href="signup_tab.php" target="_parent" style="text-decoration: none; font-family: 'Kanit', sans-serif;">สมัครสมาชิก</a>
+			      		<a href=\"signup_tab.php\" target=\"_parent\" style=\"text-decoration: none; font-family: 'Kanit', sans-serif;\">สมัครสมาชิก</a>
 
 			    	</div>
 
-				    <div class="container" style="background-color:#CD853F">
-				      	<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+				    <div class=\"container\" style=\"background-color:#CD853F\">
+				      	<button type=\"button\" onclick=\"document.getElementById('id01').style.display='none'\" class=\"cancelbtn\">Cancel</button>
 				    </div>
 				</form>
 			</div>
@@ -56,14 +59,10 @@
 				// When the user clicks anywhere outside of the modal, close it
 				document.onclick = function(event) {
 			    	if (event.target == modal) {
-			        modal.style.display = "none";
+			        modal.style.display = \"none\";
 			    	}
 				}
 			</script>
 
-		<?php
-		      } ?>
-		<!--/fieldset-->
-
-	</body>
-</html>
+		";
+		     };  ?>

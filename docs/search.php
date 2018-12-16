@@ -74,7 +74,7 @@
 
 					<button class="button button2" style="width: 200px;">ค้นหาอย่างละเอียด</button> <br><br>
 
-					<div id="AB" style="display: block;">
+					<div id="AB" style="display: none;">
 					<label>สิทธิการใช้อดอป</label> <br>
 						<label>ผู้ซื้อดัดแปลงดีไซน์</label>
 					        <select id="modify" name="deal_modify">
@@ -146,6 +146,10 @@
 							</label><br>
 					</div>
 					<button class="button button2">ค้นหา</button>
+
+					<div id="A" style="display: block;">
+						<fieldset></fieldset>
+					</div>
 				</fieldset>
 			</div>
 		</div>

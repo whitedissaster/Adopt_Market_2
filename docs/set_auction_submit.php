@@ -32,7 +32,14 @@
 		</div>
 
 		<div class="all">
-		        <div class="row">           
+			<?php
+				//include 'ConnextDatabase.php';
+				$adopt_id = $_GET["adopt_id"];
+
+
+				include 'view_adopt.php';
+			?>
+			<div class="row">
 			<fieldset>
 
 				<h1>ประมูล</h1>
@@ -43,12 +50,18 @@
 				        <div class="auc_1">			
 				        	<p>ราคาสูงสุดปัจจุบัน+ผู้ประมูล</p>
 				        	<div class="h_price">
-				        		<p>ราคาสูงสุด</p>
+				        		<p class="a_price">100</p>
+								<p class="a_time">11.00</p>
 				        	</div>
 				        	
 				        	<div class="member">
-				        		<p>ผู้ประมูล</p>
-				        	</div>	            
+				        		<div class="n_member">
+									<p>name</p>
+								</div>
+									
+								<img src="../Nightp.jpg" alt="Avatar" class="avatar">
+				        	</div>
+
 				    	</div>
 
 						<div class="auc_2">
@@ -75,8 +88,19 @@
 
 						<div class="auc2_1">
 							<p>ประวัติการประมูล</p>
-							<div class="auc2_1_1">
-								<p>ราคา+ผู้ประมูล</p>
+							<div class="a_member">
+								<div class="a_member_price">
+									<p class="a_price">100</p>
+									<p class="a_time">11.00</p>
+								</div>
+								<div class="a_member_pic">
+									<div class="n_member">
+										<p>name</p>
+									</div>
+									
+									<img src="../Nightp.jpg" alt="Avatar" class="avatar">
+
+								</div>
 							</div>
 						</div>
 
