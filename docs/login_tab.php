@@ -13,7 +13,7 @@
 			<?php
 			    if(1){
 
-			    	echo '<div class="u_name"> now user:'." WhiteGodDess";?>
+			    	echo '<p class="u_name"><i class="fa fa-user-circle" aria-hidden="true"></i> WhiteGodDess</p>';?>
 			    </div>
 			    	<button onclick="window.location.href='logout.php'" class="logoutbtn" style="width: auto;">Logout</button><?php
 			    }
@@ -66,3 +66,5 @@
 
 		";
 		     };  ?>
+		 </body>
+
