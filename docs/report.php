@@ -15,7 +15,9 @@
 				        
 				    <p style="text-align: center;">ขอบคุณสำหรับความร่วมมือ</p>
 			        
-			      	<a href="profile.php"><button type="submit" value="login" formaction="profile.php">กลับหน้าโปรไฟล์</button></a>
+			        <input type=button onClick='window.history.back()' value='Back' class="backbtn">
+
+			      	<a href="profile.php"><button class="profilebtn" type="submit" value="login" formaction="profile.php">กลับหน้าโปรไฟล์</button></a>
 
 				</fieldset>
 

@@ -14,7 +14,7 @@
 
 		    	<form action="/action_page.php" style="max-width:500px;margin:auto">
 		    	<div class="input-container">
-		    	<h2>Signup Form</h2>
+		    	<h2>Sign Up Form</h2>
 			  	
 
 			    <hr>
@@ -34,14 +34,20 @@
 
 			    <label for="psw"><b>Password</b></label>
 			    <input class="input-field" type="password" placeholder="Enter Password" name="psw" id="myInput" required>
-			    <input type="checkbox" onclick="myFunction()">Show Password
+
+			    <!--input type="checkbox" onclick="myFunction()">Show Password-->
+			    <label class="ccontainer">Show Password
+					<input id="in" type="checkbox" onclick="myFunction()">
+					<span class="checkmark"></span>
+				</label>
+
 			    <hr>
 			  	</div>
 
 			  	<!--a href=javascript:history.back(1)>Cancel</a-->
 			  	<input type=button onClick='window.history.back()' value='Cancel' class="cancelbtn">
 
-			  	<button type="submit" value="signup" formaction="signup.php" class="signupbtn">Signup</button>
+			  	<button type="submit" value="signup" formaction="signup.php" class="signupbtn">Sign Up</button>
 
 				</form>
 

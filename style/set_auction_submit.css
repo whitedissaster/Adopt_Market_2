@@ -19,6 +19,25 @@
 		margin: 10px;
 	}
 
+	.h_price {
+		background-color: #696969;
+		border-radius: 7px;
+		padding: 0 10px;
+		margin-left: 5%;
+		width: 25%;
+		float: left;
+		margin-bottom: 10px;
+	}
+
+	.member {
+		background-color: #BEBEBE;
+		border-radius: 7px;
+		padding: 0 10px;
+		float: left;
+		width: 40%;
+		margin: 1.5px 0 0 30px;
+	}
+
 	.auc_2 {
 		background-color: #FFCCCC;
 		border-radius: 10px;

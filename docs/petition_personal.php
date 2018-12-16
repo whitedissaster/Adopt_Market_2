@@ -52,7 +52,7 @@
 						<input type="text" id="widget1" name="personal_citizen_id" placeholder="รหัสประชาชน"><br><br>
 
 						<label>วันเกิด </label>
-						<input type="date" name="birthdate" min="<?php echo date('Y-m-d'); ?>"><br>
+						<input type="date" name="birthdate" min="<?php echo date('Y-m-d'); ?>"><br><br>
 
       					<label>ที่อยู่</label><br>
       					<label>บ้านเลขที่ : </label>

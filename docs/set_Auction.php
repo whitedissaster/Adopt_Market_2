@@ -81,8 +81,17 @@
 						        </select>
 						<br><br>
 
-						<input type="checkbox" class="switch" name="aution_over_time_set" value=1>ต่อเวลาเมื่อมีการปาด<br>
-						<input type="checkbox" class="switch" name="buy_limit_no_stranger" value=1>จำกัดการเข้าร่วมเฉพาะสมาชิกที่ยืนยันตัวตน
+						<!--input type="checkbox" class="switch" name="aution_over_time_set" value=1>ต่อเวลาเมื่อมีการปาด<br>
+						<input type="checkbox" class="switch" name="buy_limit_no_stranger" value=1>จำกัดการเข้าร่วมเฉพาะสมาชิกที่ยืนยันตัวตน-->
+
+						<label class="ccontainer">ต่อเวลาเมื่อมีการปาด
+						<input id="in" type="checkbox" name="aution_over_time_set" value=1>
+						<span class="checkmark"></span>
+						</label>
+						<label class="ccontainer">จำกัดการเข้าร่วมเฉพาะสมาชิกที่ยืนยันตัวตน
+						<input id="in" type="checkbox" name="buy_limit_no_stranger" value=1>
+						<span class="checkmark"></span>
+						</label>
 
 						<br><br>
 

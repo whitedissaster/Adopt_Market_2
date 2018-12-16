@@ -53,7 +53,7 @@
 						            <option value="0">ไม่อนุญาต</option>
 						            <option value="2">อนุญาตภายใต้เงื่อนไข</option> 
 						        </select> <br>
-						        <div id="modify2" style="display: none">
+						        <div id="modify2" style="display: block;">
 						           	<input type="text" id="" name="customer_design_condition_commercial" placeholder="เงื่อนไข..."><br><br>
 						        </div>
 
@@ -63,7 +63,7 @@
 						            <option value="0">ไม่อนุญาต</option>
 						            <option value="2">อนุญาตภายใต้เงื่อนไข</option> 
 						        </select> <br>
-						        <div id="modify2" style="display: none">
+						        <div id="modify2" style="display: block;">
 						           	<input type="text" id="" name="customer_design_condition_commercial" placeholder="เงื่อนไข..."><br><br>
 						        </div>
 
@@ -73,7 +73,7 @@
 						            <option value="0">ไม่อนุญาต</option>
 						            <option value="2">อนุญาตภายใต้เงื่อนไข</option> 
 						        </select> <br>
-						        <div id="modify2" style="display: none">
+						        <div id="modify2" style="display: block;">
 						           	<input type="text" id="" name="customer_design_condition_publish" placeholder="เงื่อนไข..."><br><br>
 						        </div>
 
@@ -83,7 +83,7 @@
 						            <option value="0">ไม่อนุญาต</option>
 						            <option value="2">อนุญาตภายใต้เงื่อนไข</option> 
 						        </select> <br>
-						        <div id="modify2" style="display: none">
+						        <div id="modify2" style="display: block;">
 									<input type="text" id="" name="custumer_image_condition_commercial" placeholder="เงื่อนไข..."><br><br>
 						        </div>
 
@@ -93,7 +93,7 @@
 						            <option value="0">ไม่อนุญาต</option>
 						            <option value="2">อนุญาตภายใต้เงื่อนไข</option>
 						        </select> <br>
-						        <div id="transfer2" style="display: none">
+						        <div id="transfer2" style="display: block;">
 									<input type="text" id="" name="customer_condition_transfer_permissions" placeholder="เงื่อนไข..."><br><br>
 					            </div>
 
@@ -103,20 +103,29 @@
 						            <option value="0">ไม่อนุญาต</option>
 						            <option value="2">อนุญาตภายใต้เงื่อนไข</option>
 						        </select> <br>
-						        <div id="transfer2" style="display: none">
+						        <div id="transfer2" style="display: block;">
 									<input type="text" id="" name="customer_image_condition_modify" placeholder="เงื่อนไข..."><br><br>
 					            </div>
 
-					            <label>สิทธิ์ในการขอเครดิตในผลงานต่อยอด</label>
+					            <label>สิทธิ์การขอเครดิตในผลงานต่อยอด</label>
 						        <select id="modify" name="creator_design_right_credit">
 						            <option value="1">อนุญาต</option>
 						            <option value="0">ไม่อนุญาต</option>
 						        </select> <br><br>
 
 						        <label>ผู้วาดมีสิทธิ์</label><br>
-						        <input type="checkbox" class="switch" name="creator_design_right_apply" value=1>ใช้งานดีไซน์<br>
+						        <!--input type="checkbox" class="switch" name="creator_design_right_apply" value=1>ใช้งานดีไซน์<br>
+						        
+						        <input type="checkbox" class="switch" name="creator_design_right_commercial" value=1>ใช้งานดีไซน์เชิงพาณิชย์<br-->
 
-						        <input type="checkbox" class="switch" name="creator_design_right_commercial" value=1>ใช้งานดีไซน์เชิงพาณิชย์<br>
+						        <label class="ccontainer">ใช้งานดีไซน์
+									<input id="in" type="checkbox" name="creator_design_right_apply" value=1>
+									<span class="checkmark"></span>
+								</label>
+								<label class="ccontainer">ใช้งานดีไซน์เชิงพาณิชย์
+									<input id="in" type="checkbox" name="creator_design_right_commercial" value=1>
+									<span class="checkmark"></span>
+								</label>
 
 						        <label>ผู้วาดมีสิทธิ์ในการเผยแพร่ภาพต้นฉบับ</label>
 						        <select id="transfer" name="creator_design_right_publish">
@@ -124,8 +133,8 @@
 						            <option value="0">ไม่อนุญาต</option>
 						            <option value="2">อนุญาตภายใต้เงื่อนไข</option>
 						        </select> <br><br>
-						        <div id="transfer2" style="display: none">
-							        <label>เงื่อนไขนการเผยแพร่ภาพต้นฉบับของผู้ขาย:</label><br>
+						        <div id="transfer2" style="display: block;">
+							        <label>เงื่อนไขในการเผยแพร่ภาพต้นฉบับของผู้ขาย:</label><br>
 									<input type="text" id="" name="creator_design_condition_publish" placeholder="เงื่อนไข..."><br><br>
 					            </div>
 
@@ -138,12 +147,8 @@
 								<label>ราคาขาย</label><br>
 								<input type="text" id="" name="auto_buy" placeholder="ราคา"><br><br>
 
-								<label>วันสิ้นสุดสัญญา</label><br>
-								<input type="text" id="month" placeholder="เดือน (1-12)" style="width: 20%;">
-								<input type="text" id="day" placeholder="วันที่ (1-31)" style="width: 20%;">
-								<input type="text" id="year" placeholder="ปี (ค.ศ.)" style="width: 20%;"><br>
-								<input class="button button2" type="button" value="Submit" onclick="settimer();">
-								<p id="timer_value"></p>
+								<label>วันสิ้นสุดสัญญา </label>
+								<input type="date" name="birthdate" min="<?php echo date('Y-m-d'); ?>"><br><br>
 
 						<button type="submit" value="สร้าง" formaction="deal_offer_submit.php" class="button button2">สร้าง</button>
 

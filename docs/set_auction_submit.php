@@ -41,13 +41,31 @@
 				    <div class="auc">				
 				        <p>ข้อเสนอ</p>
 
-				        <div class="auc_1">	
-				        	<div class="auc_1_1"></div>				
-				        	<p>ราคาสูงสุดปัจจุบัน+ผู้ประมูล</p>	        			            
+				        <div class="auc_1">			
+				        	<p>ราคาสูงสุดปัจจุบัน+ผู้ประมูล</p>
+				        	<div class="h_price">
+				        		<p>ราคาสูงสุด</p>
+				        	</div>
+				        	
+				        	<div class="member">
+				        		<p>ผู้ประมูล</p>
+				        	</div>	            
 				    	</div>
 
 						<div class="auc_2">
 							<p>เสนอราคา</p>
+							
+							<!--div class="quantity">
+							  	<input type="number" min="1" max="9" value="1">
+							  	<input type="submit" name="submit"><br><br>
+							</div-->
+							<?php
+				//include 'ConnextDatabase.php';
+				$adopt_id = $_GET["adopt_id"];
+
+
+				include 'input_price.php';
+			?>
 								
 						</div>
 

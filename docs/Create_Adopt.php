@@ -57,9 +57,21 @@
 
 						<label>เพศ : </label>
 					    	<label for="gender">
-					    	<input type="radio" name="adopt_gender" value="female">ชาย
-					    	<input type="radio" name="adopt_gender" value="male">หญิง
-					    	<input type="radio" name="adopt_gender" value="unknown">ไม่ระบุเพศ
+					    	<!--input type="radio" name="adopt_gender" value="male">ชาย
+					    	<input type="radio" name="adopt_gender" value="female">หญิง
+					    	<input type="radio" name="adopt_gender" value="unknown">ไม่ระบุเพศ-->
+					    	<label class="racontainer">ชาย
+							  	<input id="in2" type="radio" name="adopt_gender" value="male">
+							  	<span class="racheckmark"></span>
+							</label>
+							<label class="racontainer">หญิง
+							  	<input id="in2" type="radio" name="adopt_gender" value="female">
+							  	<span class="racheckmark"></span>
+							</label>
+							<label class="racontainer">ไม่ระบุเพศ
+							  	<input id="in2" type="radio" name="adopt_gender" value="unknown">
+							  	<span class="racheckmark"></span>
+							</label>
 						</label><br><br>
 
 						<label>รายละเอียด</label><br>

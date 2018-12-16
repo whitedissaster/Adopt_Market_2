@@ -45,12 +45,26 @@
 
 						<label>เพศ : </label>
 					    	<label for="gender">
-					    	<input type="radio" name="user_gender" value="female">ชาย
+					    	<!--input type="radio" name="user_gender" value="female">ชาย
 					    	<input type="radio" name="user_gender" value="male">หญิง
-					    	<input type="radio" name="user_gender" value="unknown">ไม่ระบุเพศ
+					    	<input type="radio" name="user_gender" value="unknown">ไม่ระบุเพศ-->
+					    	<label class="racontainer">ชาย
+							  	<input id="in2" type="radio" name="adopt_gender" value="male">
+							  	<span class="racheckmark"></span>
+							</label>
+							<label class="racontainer">หญิง
+							  	<input id="in2" type="radio" name="adopt_gender" value="female">
+							  	<span class="racheckmark"></span>
+							</label>
+							<label class="racontainer">ไม่ระบุเพศ
+							  	<input id="in2" type="radio" name="adopt_gender" value="unknown">
+							  	<span class="racheckmark"></span>
+							</label>
 						</label><br><br>
 
 						<!--input type="submit" value="สร้าง" formaction="Create_Adopt_Submit.php"-->
+
+						<input type=button onClick='window.history.back()' value='Back' class="cancelbtn" style="border: none; color: #FFF; height: 48px; width: 100px;">
 
 						<button type="submit" value="แก้ไข" formaction="profile.php" class="button button2">แก้ไข</button>
 

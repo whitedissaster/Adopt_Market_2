@@ -1,14 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
-@import url(https://fonts.googleapis.com/css?family=Damion);
 @import url('https://fonts.googleapis.com/css?family=Kanit');
-
 
 /* General styles */
 body {
     background: #CD853F;
     font-size: 18px;
     line-height: 30px;
-    font-family: 'Roboto', sans-serif;
     color: #828282;
     font-weight: 400;
 }
@@ -16,12 +12,6 @@ body {
 img {width: 100%;}
 a,button{outline: 0 !important;}
 a:hover,a:focus{ text-decoration: none}
-
-
-/* Font */
-.banner_btn,.btn.submit_btn,.service_btn,.name,.testi_btn,.work_us_btn {
-    font-family: "Damion",cursive;
-}
 
 .about_right {
     margin-left: 0px;
@@ -82,7 +72,7 @@ a:hover,a:focus{ text-decoration: none}
     color: #000000;
     display: block;
     background-color: #FFDEAD;
-    padding: 7px 7px 7px 7px;
+    padding: 3%;
 }
 
 .login {
@@ -137,6 +127,57 @@ a:hover,a:focus{ text-decoration: none}
   	background-color: #B22222;
 }
 
+.d_btn {
+	background-color: #32CD32;
+  	color: white;
+  	width: auto;
+  	padding: 7px 12px;
+  	font-size: 16px;
+  	cursor: pointer;
+  	float: left;
+}
+
+.backbtn {
+	background-color: #EE0000;
+  	color: white;
+  	padding: 13px 20px;
+  	margin: 8px 0;
+  	border: none;
+  	cursor: pointer;
+  	width: 50%;
+  	opacity: 0.9;
+  	float: left;
+}
+
+.backbtn:hover {
+    background-color: #CD0000;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2);
+}
+
+.backbtn:active {
+  	background-color: #000000;
+}
+
+.profilebtn {
+  	background-color: #4CAF50;
+  	color: white;
+  	padding: 13px 20px;
+  	margin: 8px 0;
+  	border: none;
+  	cursor: pointer;
+  	width: 50%;
+  	float: left;
+}
+
+.profilebtn:hover {
+    background-color: #3e8e41;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2);
+}
+
+.profilebtn:active {
+  	background-color: #000000;
+}
+
 .comment_submit {
 	height: auto;
 	width: 100%;
@@ -169,7 +210,6 @@ textarea {
     font-family: 'Kanit', sans-serif;
     font-size: 14pt;
     resize: none;
-    border-style: inset;
 }
 
 span {
@@ -258,4 +298,141 @@ fieldset {
 @media screen and (max-height: 450px) {
   	.sidenav {padding-top: 15px;}
   	.sidenav a {font-size: 18px;}
+}
+
+/* Checkbox*/
+/* The container */
+.ccontainer {
+  display: block;
+  width: 365px;
+  position: relative;
+  padding-left: 45px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Hide the browser's default checkbox */
+.ccontainer #in {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 3px;
+  left: -15px;
+  border-radius: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.ccontainer:hover #in ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.ccontainer #in:checked ~ .checkmark {
+  background-color: #F4A460;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.ccontainer #in:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.ccontainer .checkmark:after {
+  left: 5px;
+  top: 1px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* radio */
+/* The container */
+.racontainer {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.racontainer #in2 {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.racheckmark {
+  position: absolute;
+  top: 4px;
+  left: 0px;
+  height: 18px;
+  width: 18px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.racontainer:hover #in2 ~ .racheckmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.racontainer #in2:checked ~ .racheckmark {
+  background-color: #F4A460;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.racheckmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.racontainer #in2:checked ~ .racheckmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.racontainer .racheckmark:after {
+ 	top: 5px;
+	left: 5px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
 }

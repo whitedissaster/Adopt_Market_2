@@ -48,9 +48,21 @@
 
 				    <label>เพศ : </label>
 				        <label for="gender">
-				            <input type="radio" name="adopt_gender" value="female">ชาย
+				            <!--input type="radio" name="adopt_gender" value="female">ชาย
 				            <input type="radio" name="adopt_gender" value="male">หญิง
-				            <input type="radio" name="adopt_gender" value="unknown">ไม่ระบุเพศ
+				            <input type="radio" name="adopt_gender" value="unknown">ไม่ระบุเพศ-->
+				            <label class="racontainer">ชาย
+							  	<input id="in2" type="radio" name="adopt_gender" value="male">
+							  	<span class="racheckmark"></span>
+							</label>
+							<label class="racontainer">หญิง
+							  	<input id="in2" type="radio" name="adopt_gender" value="female">
+							  	<span class="racheckmark"></span>
+							</label>
+							<label class="racontainer">ไม่ระบุเพศ
+							  	<input id="in2" type="radio" name="adopt_gender" value="unknown">
+							  	<span class="racheckmark"></span>
+							</label>
 				        </label><br><br>
 
 					<label>ประเภทการขาย</label> 
@@ -71,7 +83,11 @@
 					            <option value="2">อนุญาตภายใต้เงื่อนไข</option> 
 					        </select> <br>
 					        <div id="modify2" style="display: block;">
-					           	<input type="checkbox" class="switch" name="deal_modify_inform" value=1>แจ้งแก่ผู้วาดทุกครั้งก่อนทำการดัดแปลง
+					           	<!--input type="checkbox" class="switch" name="deal_modify_inform" value=1>แจ้งแก่ผู้วาดทุกครั้งก่อนทำการดัดแปลง-->
+					           	<label class="ccontainer">แจ้งแก่ผู้วาดทุกครั้งก่อนทำการดัดแปลง
+									<input id="in" type="checkbox" name="deal_modify_inform" value=1>
+									<span class="checkmark"></span>
+								</label>
 					        </div>
 
 					    <label>ผู้ซื้อนำภาพต้นฉบับไปใช้โดยตรง</label>
@@ -81,10 +97,26 @@
 					            <option value="2">อนุญาตภายใต้เงื่อนไข</option>
 					        </select> <br>
 					        <div id="cuspic2" style="display: block;">
-						       	<input type="checkbox" class="switch" name="deal_manuscript_nocommercial" value=1>ไม่ใช่การใช้งานเชิงพาณิชย์<br>
+						       	<!--input type="checkbox" class="switch" name="deal_manuscript_nocommercial" value=1>ไม่ใช่การใช้งานเชิงพาณิชย์<br>
 					         	<input type="checkbox" class="switch" name="deal_manuscript_credit" value=1>ระบุเครดิตเมื่อนำไปใช้<br>
 						        <input type="checkbox" class="switch" name="deal_manuscript_nomodify" value=1>ห้ามทำการดัดแปลง/ต่อเติม/แก้ไขรูปภาพ<br>
-						        <input type="checkbox" class="switch" name="deal_manuscript_inform" value=1>แจ้งแก่ผู้วาดทุกครั้งก่อนการใช้ภาพ<br>
+						        <input type="checkbox" class="switch" name="deal_manuscript_inform" value=1>แจ้งแก่ผู้วาดทุกครั้งก่อนการใช้ภาพ<br-->
+						        <label class="ccontainer">ไม่ใช่การใช้งานเชิงพาณิชย์
+									<input id="in" type="checkbox" name="deal_manuscript_nocommercial" value=1>
+									<span class="checkmark"></span>
+								</label>
+								<label class="ccontainer">ระบุเครดิตเมื่อนำไปใช้
+									<input id="in" type="checkbox" name="deal_manuscript_credit" value=1>
+									<span class="checkmark"></span>
+								</label>
+								<label class="ccontainer">ห้ามทำการดัดแปลง/ต่อเติม/แก้ไขรูปภาพ
+									<input id="in" type="checkbox" name="deal_manuscript_nomodify" value=1>
+									<span class="checkmark"></span>
+								</label>
+								<label class="ccontainer">แจ้งแก่ผู้วาดทุกครั้งก่อนการใช้ภาพ
+									<input id="in" type="checkbox" name="deal_manuscript_inform" value=1>
+									<span class="checkmark"></span>
+								</label>
 					        </div>
 
 					    <label>ผู้ซื้อโอนสิทธิ์แก่ผู้อื่น</label>
@@ -94,12 +126,24 @@
 					            <option value="2">อนุญาตภายใต้เงื่อนไข</option>
 					        </select> <br>
 					        <div id="transfer2" style="display: block;">
-						        <input type="checkbox" class="switch" name = "deal_transfer_inform" value=1>แจ้งแก่ผู้วาดเมื่อมีการเปลี่ยนแปลงผู้ถือสิทธิ์<br>
-					            <input type="checkbox" class="switch" name = "deal_transfer_money" value=1>ผู้วาดมีสิทธิ์เรียกค่าใช้จ่ายเพิ่มเติมเมื่อมีการโอนสิทธิ์<br>
+						        <!--input type="checkbox" class="switch" name = "deal_transfer_inform" value=1>แจ้งแก่ผู้วาดเมื่อมีการเปลี่ยนแปลงผู้ถือสิทธิ์<br>
+					            <input type="checkbox" class="switch" name = "deal_transfer_money" value=1>ผู้วาดมีสิทธิ์เรียกค่าใช้จ่ายเพิ่มเติมเมื่อมีการโอนสิทธิ์<br-->
+					            <label class="ccontainer">แจ้งแก่ผู้วาดเมื่อมีการเปลี่ยนแปลงผู้ถือสิทธิ์
+									<input id="in" type="checkbox" name="deal_transfer_inform" value=1>
+									<span class="checkmark"></span>
+								</label>
+								<label class="ccontainer">ผู้วาดมีสิทธิ์เรียกค่าใช้จ่ายเพิ่มเติมเมื่อมีการโอนสิทธิ์
+									<input id="in" type="checkbox" name="deal_transfer_money" value=1>
+									<span class="checkmark"></span>
+								</label>
 				            </div>
 
 					    <label>ผู้วาดมีสิทธิ์ในผลงาน</label><br>
-					        <input type="checkbox" class="switch" name="deal_creator_portfolio" value=1>เผยแพร่ภาพในพอร์ตรวบรวมผลงาน<br><br>
+					        <!--input type="checkbox" class="switch" name="deal_creator_portfolio" value=1>เผยแพร่ภาพในพอร์ตรวบรวมผลงาน<br><br-->
+					        <label class="ccontainer">เผยแพร่ภาพในพอร์ตรวบรวมผลงาน
+									<input id="in" type="checkbox" name="deal_creator_portfolio" value=1>
+									<span class="checkmark"></span>
+							</label><br>
 					</div>
 					<button class="button button2">ค้นหา</button>
 				</fieldset>

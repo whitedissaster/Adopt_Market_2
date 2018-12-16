@@ -25,7 +25,7 @@
 					<input type="file" name="fileToUpload" accept="image/x-png,image/gif,image/jpeg"><br><br>
 
 				    <label>รายละเอียด</label><br>
-					<textarea class="rtextarea" name="adopt_detail" placeholder="รายละเอียดอื่นๆ..." style="height:200px"></textarea><br>
+					<textarea class="rtextarea" name="adopt_detail" placeholder="รายละเอียดอื่นๆ..." style="height:200px" required></textarea><br>
 
 		        	<div class="clearfix">
 		        		<button type="button" onclick="document.getElementById('id02').style.display='none'" class="rcancelbtn">Cancel</button>
